@@ -1,7 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1749227746
+::res://::1749240214
 Europe Map 2D.jpg::CompressedTexture2D/CompressedTexture2D::3634840841285940829::1749227023::1749227023::1::::<><><>0<>0<>1c247c628ce80cfe7763327085081c71<>res://.godot/imported/Europe Map 2D.jpg-6be042816b913193a83b11ec4a1c5551.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::2909781261834108794::1749227023::1749227023::1::::<><><>0<>0<>df83e5f638b040ed3281fbf7a9ffb5dd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main_menu.tscn::PackedScene/PackedScene::2145404949296852339::1749227023::0::1::::<><><>0<>0<><>::uid://wbfrm5ow7s1w::::res://Picking_Country.tscn
-Picking_Country.tscn::PackedScene/PackedScene::1546553558542096754::1749227023::0::1::::<><><>0<>0<><>::uid://br10kea3mw2d2::::res://Europe Map 2D.jpg
+main_menu.tscn::PackedScene::2145404949296852339::1749240048::0::1::::<><><>0<>0<><>::uid://wbfrm5ow7s1w::::res://Picking_Country.tscn
+picking_country.gd::GDScript/GDScript::8880391784918182081::1749236622::0::1::::<>Node2D<><>0<>0<><>::
+Picking_Country.tscn::PackedScene::1546553558542096754::1749240048::0::1::::<><><>0<>0<><>::uid://br10kea3mw2d2::::res://Europe Map 2D.jpg<>uid://dyry0xct7joc4::::res://picking_country.gd
 README.md::TextFile/TextFile::-1::1749227023::0::1::::<><><>0<>0<><>::
+::res://Sprites/::1749238124
+png-clipart-settings-gear-icon-gear-configuration-thumbnail.png::CompressedTexture2D/CompressedTexture2D::3572069448407623348::1749238027::1749238124::1::::<><><>0<>0<>3952b90a426e7a4ea3678219d04df92c<>res://.godot/imported/png-clipart-settings-gear-icon-gear-configuration-thumbnail.png-b72655e0899ae601d465330e3833e26c.ctex::
+pngtree-settings-icon-image_1197585.jpg::CompressedTexture2D/CompressedTexture2D::6763165452452609122::1749238058::1749238124::1::::<><><>0<>0<>40ba3d8b127d75eed5b3cbece53b00b7<>res://.godot/imported/pngtree-settings-icon-image_1197585.jpg-2bc3e90f0382345e18ea88f41e56b49d.ctex::
+settings-white-outline-icon-download-png-701751694974641xsiiydfokh.png::CompressedTexture2D/CompressedTexture2D::4646330710776944288::1749238035::1749238124::1::::<><><>0<>0<>3848c631a0eb9f62526fc676d239666a<>res://.godot/imported/settings-white-outline-icon-download-png-701751694974641xsiiydfokh.png-8d89a26f3f632570246aa2ba1ce797b7.ctex::
