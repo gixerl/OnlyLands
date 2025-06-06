@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1749227213
+::res://::1749227746
 Europe Map 2D.jpg::CompressedTexture2D/CompressedTexture2D::3634840841285940829::1749227023::1749227023::1::::<><><>0<>0<>1c247c628ce80cfe7763327085081c71<>res://.godot/imported/Europe Map 2D.jpg-6be042816b913193a83b11ec4a1c5551.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::2909781261834108794::1749227023::1749227023::1::::<><><>0<>0<>df83e5f638b040ed3281fbf7a9ffb5dd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main_menu.tscn::PackedScene::2145404949296852339::1749227023::0::1::::<><><>0<>0<><>::uid://wbfrm5ow7s1w::::res://Picking_Country.tscn
-Picking_Country.tscn::PackedScene::1546553558542096754::1749227023::0::1::::<><><>0<>0<><>::uid://br10kea3mw2d2::::res://Europe Map 2D.jpg
-README.md::TextFile::-1::1749227023::0::1::::<><><>0<>0<><>::
+main_menu.tscn::PackedScene/PackedScene::2145404949296852339::1749227023::0::1::::<><><>0<>0<><>::uid://wbfrm5ow7s1w::::res://Picking_Country.tscn
+Picking_Country.tscn::PackedScene/PackedScene::1546553558542096754::1749227023::0::1::::<><><>0<>0<><>::uid://br10kea3mw2d2::::res://Europe Map 2D.jpg
+README.md::TextFile/TextFile::-1::1749227023::0::1::::<><><>0<>0<><>::
