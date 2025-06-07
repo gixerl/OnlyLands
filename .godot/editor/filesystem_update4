@@ -1,3 +1,6 @@
+res://Scenes/Picking_Country.tscn
+res://Scenes/fullscreen_controler.gd
 res://Scenes/main_menu.tscn
 res://Scenes/map.tscn
-res://Scenes/Picking_Country.tscn
+res://Scenes/audio_control.gd
+res://Scenes/audio_control_vfx.gd

@@ -1,6 +1,12 @@
-[gd_scene load_steps=16 format=3 uid="uid://wbfrm5ow7s1w"]
+[gd_scene load_steps=30 format=3 uid="uid://wbfrm5ow7s1w"]
 
 [ext_resource type="Texture2D" uid="uid://br10kea3mw2d2" path="res://Europe Map 2D.jpg" id="1_c8wjh"]
+[ext_resource type="Script" uid="uid://ccni6aiyxbdeq" path="res://Scenes/audio_control.gd" id="2_apnl6"]
+[ext_resource type="AudioStream" uid="uid://6ittdu37xfgs" path="res://Soundtracks/04. Home Music Part 1.mp3" id="2_evcnd"]
+[ext_resource type="Script" uid="uid://c8emaa5r2nrwh" path="res://Scenes/fullscreen_controler.gd" id="3_o56ch"]
+[ext_resource type="Script" uid="uid://b0bdtcpbfx6en" path="res://Scenes/audio_control_vfx.gd" id="4_lwngr"]
+[ext_resource type="AudioStream" uid="uid://dp4y0wt6kose4" path="res://Soundtracks/clash_of_clan_start_up_soundmp3converter.mp3" id="5_50x8q"]
+[ext_resource type="AudioStream" uid="uid://7vfwkjps423p" path="res://Soundtracks/Select.mp3" id="6_fljsd"]
 
 [sub_resource type="GDScript" id="GDScript_w568w"]
 script/source = "extends Node2D
@@ -16,6 +22,7 @@ func _ready() -> void:
 
 func _on_start_pressed() -> void:
 	print(\"Start\")# Replace with function body.
+	$Click_Start.play()
 
 
 func _on_settings_pressed() -> void:
@@ -23,12 +30,18 @@ func _on_settings_pressed() -> void:
 	start.visible = false
 	settings.visible = false
 	options.visible = true
+	$Click_Normal.play()
 
 
 func _on_back_pressed() -> void:
 	start.visible = true
 	settings.visible = true
 	options.visible = false
+	$Click_Normal.play()
+
+
+func _on_exit_pressed() -> void:
+	get_tree().quit()
 "
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_50x8q"]
@@ -55,6 +68,43 @@ corner_radius_bottom_right = 30
 corner_radius_bottom_left = 30
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ji47r"]
+bg_color = Color(0.380392, 0.380392, 0.380392, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_evcnd"]
+color = Color(1, 1, 1, 1)
+thickness = 8
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_apnl6"]
+color = Color(0.435192, 0.435192, 0.435192, 1)
+thickness = 8
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_o56ch"]
+color = Color(0.435192, 0.435192, 0.435192, 1)
+thickness = 8
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o56ch"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fljsd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f6ygo"]
+bg_color = Color(0.259294, 0.259294, 0.259294, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gdb7b"]
+bg_color = Color(0.380392, 0.380392, 0.380392, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xkpn2"]
 bg_color = Color(0.380392, 0.380392, 0.380392, 1)
 corner_radius_top_left = 30
 corner_radius_top_right = 30
@@ -156,7 +206,7 @@ theme_override_font_sizes/font_size = 40
 text = "Option"
 horizontal_alignment = 1
 
-[node name="Button" type="Button" parent="Options/Fläche"]
+[node name="Back" type="Button" parent="Options/Fläche"]
 layout_mode = 0
 offset_left = 166.0
 offset_top = 537.0
@@ -168,6 +218,83 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_fljsd")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_p12mv")
 theme_override_styles/normal = SubResource("StyleBoxFlat_ji47r")
 text = "Back"
+
+[node name="AudioControlMusic" type="HSlider" parent="Options/Fläche"]
+layout_mode = 0
+offset_left = 262.0
+offset_top = 98.0
+offset_right = 524.0
+offset_bottom = 187.0
+theme_override_styles/slider = SubResource("StyleBoxLine_evcnd")
+theme_override_styles/grabber_area = SubResource("StyleBoxLine_apnl6")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxLine_o56ch")
+max_value = 1.0
+step = 0.05
+value = 1.0
+script = ExtResource("2_apnl6")
+audio_bus_name = "Music"
+
+[node name="FullscreenControler" type="CheckButton" parent="Options/Fläche"]
+layout_mode = 0
+offset_left = 101.0
+offset_top = 249.0
+offset_right = 383.0
+offset_bottom = 299.0
+scale = Vector2(1.5, 1.5)
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_o56ch")
+button_pressed = true
+text = "Fullscreen"
+script = ExtResource("3_o56ch")
+
+[node name="Label_Music" type="Label" parent="Options/Fläche"]
+layout_mode = 0
+offset_left = 112.0
+offset_top = 126.0
+offset_right = 202.0
+offset_bottom = 162.0
+theme_override_font_sizes/font_size = 25
+text = "Music"
+
+[node name="AudioControlSFX" type="HSlider" parent="Options/Fläche"]
+layout_mode = 0
+offset_left = 261.0
+offset_top = 171.0
+offset_right = 523.0
+offset_bottom = 260.0
+theme_override_styles/slider = SubResource("StyleBoxLine_evcnd")
+theme_override_styles/grabber_area = SubResource("StyleBoxLine_apnl6")
+theme_override_styles/grabber_area_highlight = SubResource("StyleBoxLine_o56ch")
+max_value = 1.0
+step = 0.05
+value = 1.0
+script = ExtResource("4_lwngr")
+audio_bus_name = "SFX"
+
+[node name="Label_VFX" type="Label" parent="Options/Fläche"]
+layout_mode = 0
+offset_left = 111.0
+offset_top = 199.0
+offset_right = 201.0
+offset_bottom = 235.0
+theme_override_font_sizes/font_size = 25
+text = "SFX"
+
+[node name="Button" type="Button" parent="Options/Fläche"]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 396.0
+offset_right = 378.0
+offset_bottom = 474.0
+theme_override_font_sizes/font_size = 27
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fljsd")
+theme_override_styles/hover = SubResource("StyleBoxFlat_f6ygo")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_gdb7b")
+theme_override_styles/normal = SubResource("StyleBoxFlat_xkpn2")
+text = "Exit"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(0.6, 0.6)
@@ -196,6 +323,24 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_lwngr")
 theme_override_styles/normal = SubResource("StyleBoxFlat_w568w")
 text = "Settings"
 
-[connection signal="pressed" from="Options/Fläche/Button" to="." method="_on_back_pressed"]
+[node name="Click_Start" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_50x8q")
+bus = &"SFX"
+
+[node name="Click_Normal" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_fljsd")
+volume_db = 7.924
+bus = &"SFX"
+
+[node name="Soundtrack" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_evcnd")
+autoplay = true
+bus = &"Music"
+
+[connection signal="pressed" from="Options/Fläche/Back" to="." method="_on_back_pressed"]
+[connection signal="value_changed" from="Options/Fläche/AudioControlMusic" to="Options/Fläche/AudioControlMusic" method="_on_Music_changed"]
+[connection signal="toggled" from="Options/Fläche/FullscreenControler" to="Options/Fläche/FullscreenControler" method="_on_toggled"]
+[connection signal="value_changed" from="Options/Fläche/AudioControlSFX" to="Options/Fläche/AudioControlSFX" method="_on_Music_changed"]
+[connection signal="pressed" from="Options/Fläche/Button" to="." method="_on_exit_pressed"]
 [connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="Settings" to="." method="_on_settings_pressed"]

@@ -1,14 +1,14 @@
-<<<<<<< Updated upstream
-Camera2D
-=======
 Button
+AudioStreamPlayer2D
+Label
+CheckButton
+HSlider
+Camera2D
 Panel
->>>>>>> Stashed changes
 Node2D
 Area2D
 Sprite2D
 ColorRect
 GridContainer
 Container
-Label
 Polygon2D
