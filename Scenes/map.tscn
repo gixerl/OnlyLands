@@ -1,15 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://7nu58abqmvjg"]
+[gd_scene load_steps=2 format=3 uid="uid://cv50v0enxc5r4"]
 
-[ext_resource type="Script" uid="uid://bg2tcau7w2vew" path="res://Scenes/map.gd" id="1_26yhd"]
-[ext_resource type="Texture2D" uid="uid://dg35b2py8qgag" path="res://Assets/Map/Europe Map 2D-with colors.jpg" id="2_26yhd"]
+[ext_resource type="Script" uid="uid://d1tt18q0q3xg6" path="res://Scenes/map.gd" id="1_s486e"]
 
 [node name="Map" type="Node2D"]
-script = ExtResource("1_26yhd")
-
-[node name="mapSprite" type="Sprite2D" parent="."]
-texture = ExtResource("2_26yhd")
-
-[node name="Countries" type="Node2D" parent="."]
+script = ExtResource("1_s486e")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(0.5, 0.5)
+zoom = Vector2(3, 3)

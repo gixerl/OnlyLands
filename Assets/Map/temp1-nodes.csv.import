@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cfjyj88kre2as"
+valid=false
+
+[deps]
+
+source_file="res://Assets/Map/temp1-nodes.csv"
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,12 +1,12 @@
+Camera2D
+Area2D
 Button
 AudioStreamPlayer2D
 Label
 CheckButton
 HSlider
-Camera2D
 Panel
 Node2D
-Area2D
 Sprite2D
 ColorRect
 GridContainer

@@ -1,57 +1,51 @@
 extends Node2D
-@onready var mapImage = $mapSprite
+var file_path = "res://Assets/Map/countries-nodes.txt"
+var country_scene = preload("res://Scenes/country.tscn")
 
-func _ready():
-	load_countries()
-
-func load_countries():
-	var image = mapImage.get_texture().get_image()
-	var pixel_color_dict = get_pixel_color_dict(image)
-	var countries_dict = import_file("res://Assets/Map/Countries.txt")
+func _ready() -> void:
+	var file = FileAccess.open(file_path,FileAccess.READ)
+	var polygons = {}
 	
-	for country_color in countries_dict:
-		var country = load("res://Scenes/country_area.tscn").instantiate()
-		country.country_name = countries_dict[country_color]
-		country.set_name(countries_dict[country_color])
-		get_node("Countries").add_child(country)
+	while not file.eof_reached():
+		var line = file.get_line()
+		var parts = line.split(",")
+		var shapeid = 0
+		var partid = 0
+		if parts.size() < 4:
+			continue
+		shapeid=parts[0].to_int()
+		partid=parts[1].to_int()
+		var x = parts[2].to_float()
+		var y = parts[3].to_float()
 		
-		var polygons = get_polygons(image, country_color,pixel_color_dict)
-		for polygon in polygons:
-			var country_collision = CollisionPolygon2D.new()
-			var country_polygon = Polygon2D.new()
-			
-			country_collision.polygon=polygon
-			country_polygon.polygon=polygon
-			
-			country.add_child(country_collision)
-			country.add_child(country_polygon)
+		if not polygons.has(shapeid):
+			polygons[shapeid]=[]
+		while polygons[shapeid].size() <= partid:
+			polygons[shapeid].append([])
+		polygons[shapeid][partid].append(Vector2(x, -y))
+		
+	for shapeid in polygons.keys():
+		create_shape(shapeid, polygons[shapeid])
 	
-func get_pixel_color_dict(image):
-	var pixel_color_dict = {}
-	for y in range(image.get_height()):
-		for x in range(image.get_width()):
-			var pixel_color = "#" + str(image.get_pixel(int(x), int(y)).to_html(false))
-			if pixel_color not in pixel_color_dict:
-				pixel_color_dict[pixel_color] = []
-			pixel_color_dict[pixel_color].append(Vector2(x,y))
-	return pixel_color_dict
-
-func get_polygons(image, country_color, pixel_color_dict):
-	var targetImage = Image.create(image.get_size().x,image.get_size().y,false, Image.FORMAT_RGBA8)
-	for value in pixel_color_dict[country_color]:
-		targetImage.set_pixel(value.x,value.y, "#ffffff")
+func create_shape(shapeid,parts):
+	var shape_area=country_scene.instantiate()
+	shape_area.name = str(shapeid)
+	add_child(shape_area)
+	
+	for partid in range(parts.size()):
+		var polygon_points = parts[partid]
+		create_part(shape_area,partid,polygon_points)
 		
-	var bitmap = BitMap.new()
-	bitmap.create_from_image_alpha(targetImage)
-	var polygons = bitmap.opaque_to_polygons(Rect2(Vector2(0,0),bitmap.get_size()),0.1)
-	return polygons
-
-# Import JSON files and converts to list or dictionary
-func import_file(filepath):
-	var file = FileAccess.open(filepath, FileAccess.READ)
-	if file != null:
-		return JSON.parse_string(file.get_as_text().replace("_", " "))
-	else:
-		print("Failed to open file:", filepath)
-		return null
- 
+func create_part(parent_node,partid,points):
+	var unique_points = points.duplicate()
+	var polygon = Polygon2D.new()
+	polygon.polygon=unique_points
+	polygon.name= str(partid)
+	
+	var collision_polygon = CollisionPolygon2D.new()
+	collision_polygon.polygon=unique_points
+	collision_polygon.name= str(partid)
+	
+	parent_node.add_child(polygon)
+	parent_node.add_child(collision_polygon)
+	

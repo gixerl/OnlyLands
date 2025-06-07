@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://d0iy47e4qe8a5"
+valid=false
+
+[deps]
+
+source_file="res://Assets/Map/temp1-attributes.csv"
+
+[params]
+
+compress=true
+delimiter=0

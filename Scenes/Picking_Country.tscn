@@ -1,6 +1,6 @@
 [gd_scene load_steps=30 format=3 uid="uid://wbfrm5ow7s1w"]
 
-[ext_resource type="Texture2D" uid="uid://br10kea3mw2d2" path="res://Europe Map 2D.jpg" id="1_c8wjh"]
+[ext_resource type="Texture2D" uid="uid://cftq3ladxdfu1" path="res://Europe Map 2D.jpg" id="1_c8wjh"]
 [ext_resource type="Script" uid="uid://ccni6aiyxbdeq" path="res://Scenes/audio_control.gd" id="2_apnl6"]
 [ext_resource type="AudioStream" uid="uid://6ittdu37xfgs" path="res://Soundtracks/04. Home Music Part 1.mp3" id="2_evcnd"]
 [ext_resource type="Script" uid="uid://c8emaa5r2nrwh" path="res://Scenes/fullscreen_controler.gd" id="3_o56ch"]
