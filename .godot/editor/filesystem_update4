@@ -1,6 +1,3 @@
 res://Scenes/main_menu.tscn
-res://Scenes/Picking_Country.tscn
 res://Scenes/map.tscn
-res://Scenes/country_area.tscn
-res://Scenes/map.gd
-res://Scenes/country_area.gd
+res://Scenes/Picking_Country.tscn

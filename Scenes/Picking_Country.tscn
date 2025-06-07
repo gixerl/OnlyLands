@@ -1,10 +1,81 @@
-[gd_scene load_steps=4 format=3 uid="uid://wbfrm5ow7s1w"]
+[gd_scene load_steps=16 format=3 uid="uid://wbfrm5ow7s1w"]
 
 [ext_resource type="Texture2D" uid="uid://br10kea3mw2d2" path="res://Europe Map 2D.jpg" id="1_c8wjh"]
 
 [sub_resource type="GDScript" id="GDScript_w568w"]
 script/source = "extends Node2D
+
+@onready var options: Panel = $Options
+@onready var start: Button = $Start
+@onready var settings: Button = $Settings
+
+func _ready() -> void:
+	start.visible = true
+	settings.visible = true
+	options.visible = false
+
+func _on_start_pressed() -> void:
+	print(\"Start\")# Replace with function body.
+
+
+func _on_settings_pressed() -> void:
+	print(\"Settings\")
+	start.visible = false
+	settings.visible = false
+	options.visible = true
+
+
+func _on_back_pressed() -> void:
+	start.visible = true
+	settings.visible = true
+	options.visible = false
 "
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_50x8q"]
+bg_color = Color(0.200193, 0.207269, 0.203257, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_apnl6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fljsd"]
+bg_color = Color(0.28485, 0.28485, 0.28485, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p12mv"]
+bg_color = Color(0.380392, 0.380392, 0.380392, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ji47r"]
+bg_color = Color(0.380392, 0.380392, 0.380392, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_w568w"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_evcnd"]
+bg_color = Color(0.479288, 0.00825563, 7.21961e-08, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_apnl6"]
+bg_color = Color(0.643137, 0.0156863, 0, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n4ohu"]
 bg_color = Color(0.643137, 0.0156863, 0, 1)
@@ -13,6 +84,29 @@ corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_evcnd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o56ch"]
+bg_color = Color(0.273873, 0.273873, 0.273873, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lwngr"]
+bg_color = Color(0.381703, 0.381703, 0.381703, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w568w"]
+bg_color = Color(0.381703, 0.381703, 0.381703, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
 [node name="Map Country Picker" type="Node2D"]
 script = SubResource("GDScript_w568w")
 
@@ -20,28 +114,35 @@ script = SubResource("GDScript_w568w")
 position = Vector2(-1, 1)
 texture = ExtResource("1_c8wjh")
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Options" type="Panel" parent="."]
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -305.0
-offset_top = -270.0
-offset_right = 299.0
-offset_bottom = 396.0
+offset_left = -1256.0
+offset_top = -893.0
+offset_right = 1253.0
+offset_bottom = 854.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="ColorRect" type="ColorRect" parent="Panel"]
+[node name="Fläche" type="Panel" parent="Options"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -303.5
+offset_top = -250.5
+offset_right = 300.5
+offset_bottom = 415.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_50x8q")
 
-[node name="Label" type="Label" parent="Panel"]
+[node name="Label" type="Label" parent="Options/Fläche"]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
@@ -50,19 +151,51 @@ offset_top = 3.0
 offset_right = -9.0
 offset_bottom = 71.0
 grow_horizontal = 2
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 40
 text = "Option"
 horizontal_alignment = 1
 
+[node name="Button" type="Button" parent="Options/Fläche"]
+layout_mode = 0
+offset_left = 166.0
+offset_top = 537.0
+offset_right = 425.0
+offset_bottom = 636.0
+theme_override_font_sizes/font_size = 30
+theme_override_styles/focus = SubResource("StyleBoxEmpty_apnl6")
+theme_override_styles/hover = SubResource("StyleBoxFlat_fljsd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_p12mv")
+theme_override_styles/normal = SubResource("StyleBoxFlat_ji47r")
+text = "Back"
+
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(0.6, 0.6)
 
-[node name="Button" type="Button" parent="."]
+[node name="Start" type="Button" parent="."]
 offset_left = 627.0
 offset_top = 352.0
 offset_right = 890.0
 offset_bottom = 484.0
 theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_w568w")
+theme_override_styles/hover = SubResource("StyleBoxFlat_evcnd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_apnl6")
 theme_override_styles/normal = SubResource("StyleBoxFlat_n4ohu")
 text = "Start"
+
+[node name="Settings" type="Button" parent="."]
+offset_left = 689.0
+offset_top = -487.0
+offset_right = 853.0
+offset_bottom = -422.0
+theme_override_font_sizes/font_size = 20
+theme_override_styles/focus = SubResource("StyleBoxEmpty_evcnd")
+theme_override_styles/hover = SubResource("StyleBoxFlat_o56ch")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_lwngr")
+theme_override_styles/normal = SubResource("StyleBoxFlat_w568w")
+text = "Settings"
+
+[connection signal="pressed" from="Options/Fläche/Button" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Settings" to="." method="_on_settings_pressed"]
