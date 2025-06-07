@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cv6ug5vtdb1kf"]
+
+[ext_resource type="Script" uid="uid://ck0xpsvo0iwn5" path="res://Scenes/country_area.gd" id="1_mlf8r"]
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_mlf8r")

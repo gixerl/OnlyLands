@@ -1,5 +1,8 @@
-Button
+Node2D
+Area2D
 Camera2D
+Sprite2D
+Button
 ColorRect
 GridContainer
 Container
