@@ -1,4 +1,7 @@
-res://Scenes/Picking_Country.tscn
-res://Scenes/main_menu.tscn
 res://Scenes/map.tscn
-res://Scenes/country.gd
+res://Assets/Map/attributes_index_finder.txt
+res://Scenes/map.gd
+res://README.md
+res://Scenes/main_menu.tscn
+res://Scenes/Picking_Country.tscn
+res://Assets/Map/countries-attributes.txt

@@ -2,6 +2,19 @@ extends Node2D
 var nodes_path = "res://Assets/Map/countries-nodes.txt"
 var country_scene = preload("res://Scenes/country.tscn")
 var attributes_path = "res://Assets/Map/countries-attributes.txt"
+
+#choose which continents are in the game
+var continents_active= {
+	"Europe" = 1,
+	"Asia" = 0,
+	"Africa" = 0,
+	"South America" = 0,
+	"North America" = 0,
+	"Antarctica" = 0,
+	"Oceania" = 0,
+	"Seven seas (open ocean)" = 0,
+	"" = 0
+}
 var names = {}
 
 func _ready() -> void:
@@ -9,13 +22,17 @@ func _ready() -> void:
 	var attributes = FileAccess.open(attributes_path, FileAccess.READ)
 	var polygons = {}
 	
-	#set up Names Dictionary
+	#comb through attributes
 	while not attributes.eof_reached():
 		var line = attributes.get_line()
 		var parts = line.split(",")
 		var shapeid = 0
-		if parts.size() < 10:
+		if parts.size() < 10 or continents_active[parts[93]]==0:
 			continue
+		
+		if parts.size()<10:
+			continue
+		#set up Names Dictionary
 		shapeid=parts[0].to_int()
 		var name = parts[19]
 		names[shapeid] = name
@@ -26,12 +43,17 @@ func _ready() -> void:
 		var parts = line.split(",")
 		var shapeid = 0
 		var partid = 0
-		if parts.size() < 4:
+		if parts.size() < 4 or parts[0].to_int() not in names:
 			continue
+			
 		shapeid=parts[0].to_int()
 		partid=parts[1].to_int()
 		var x = parts[2].to_float()
 		var y = parts[3].to_float()
+		
+		##IF WE WANT EUROPE ONLY- THIS REMOVES AMERICA TAIL OF RUSSIA AND RANDOM FRANCE ISLAND
+		if shapeid==43 and partid==0 or shapeid==18 and partid == 11:		#if france, if russia
+			continue
 		
 		if not polygons.has(shapeid):
 			polygons[shapeid]=[]
@@ -44,6 +66,7 @@ func _ready() -> void:
 	
 func create_shape(shapeid,parts):
 	var shape_area=country_scene.instantiate()
+
 	shape_area.name = names[shapeid]
 	add_child(shape_area)
 	
