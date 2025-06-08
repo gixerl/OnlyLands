@@ -1,11 +1,11 @@
 [gd_scene load_steps=29 format=3 uid="uid://wbfrm5ow7s1w"]
 
 [ext_resource type="Script" uid="uid://ccni6aiyxbdeq" path="res://Scenes/audio_control.gd" id="2_apnl6"]
-[ext_resource type="AudioStream" uid="uid://6ittdu37xfgs" path="res://Soundtracks/04. Home Music Part 1.mp3" id="2_evcnd"]
+[ext_resource type="AudioStream" uid="uid://6ittdu37xfgs" path="res://Assets/Soundtracks/04. Home Music Part 1.mp3" id="2_evcnd"]
 [ext_resource type="Script" uid="uid://c8emaa5r2nrwh" path="res://Scenes/fullscreen_controler.gd" id="3_o56ch"]
 [ext_resource type="Script" uid="uid://b0bdtcpbfx6en" path="res://Scenes/audio_control_vfx.gd" id="4_lwngr"]
-[ext_resource type="AudioStream" uid="uid://dp4y0wt6kose4" path="res://Soundtracks/clash_of_clan_start_up_soundmp3converter.mp3" id="5_50x8q"]
-[ext_resource type="AudioStream" uid="uid://7vfwkjps423p" path="res://Soundtracks/Select.mp3" id="6_fljsd"]
+[ext_resource type="AudioStream" uid="uid://dp4y0wt6kose4" path="res://Assets/Soundtracks/clash_of_clan_start_up_soundmp3converter.mp3" id="5_50x8q"]
+[ext_resource type="AudioStream" uid="uid://7vfwkjps423p" path="res://Assets/Soundtracks/Select.mp3" id="6_fljsd"]
 
 [sub_resource type="GDScript" id="GDScript_w568w"]
 script/source = "extends Node2D
@@ -177,10 +177,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -303.5
-offset_top = -250.5
-offset_right = 300.5
-offset_bottom = 415.5
+offset_left = 67.5
+offset_top = -196.5
+offset_right = 511.5
+offset_bottom = 273.5
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_50x8q")
@@ -201,10 +201,10 @@ horizontal_alignment = 1
 
 [node name="Back" type="Button" parent="Options/Fläche"]
 layout_mode = 0
-offset_left = 166.0
-offset_top = 537.0
-offset_right = 425.0
-offset_bottom = 636.0
+offset_left = 159.0
+offset_top = 358.0
+offset_right = 307.0
+offset_bottom = 417.0
 theme_override_font_sizes/font_size = 30
 theme_override_styles/focus = SubResource("StyleBoxEmpty_apnl6")
 theme_override_styles/hover = SubResource("StyleBoxFlat_fljsd")
@@ -214,10 +214,10 @@ text = "Back"
 
 [node name="AudioControlMusic" type="HSlider" parent="Options/Fläche"]
 layout_mode = 0
-offset_left = 262.0
-offset_top = 98.0
-offset_right = 524.0
-offset_bottom = 187.0
+offset_left = 203.0
+offset_top = 51.0
+offset_right = 378.0
+offset_bottom = 159.0
 theme_override_styles/slider = SubResource("StyleBoxLine_evcnd")
 theme_override_styles/grabber_area = SubResource("StyleBoxLine_apnl6")
 theme_override_styles/grabber_area_highlight = SubResource("StyleBoxLine_o56ch")
@@ -229,10 +229,10 @@ audio_bus_name = "Music"
 
 [node name="FullscreenControler" type="CheckButton" parent="Options/Fläche"]
 layout_mode = 0
-offset_left = 101.0
-offset_top = 249.0
-offset_right = 383.0
-offset_bottom = 299.0
+offset_left = 98.0
+offset_top = 181.0
+offset_right = 300.0
+offset_bottom = 223.0
 scale = Vector2(1.5, 1.5)
 theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
 theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
@@ -245,19 +245,19 @@ script = ExtResource("3_o56ch")
 
 [node name="Label_Music" type="Label" parent="Options/Fläche"]
 layout_mode = 0
-offset_left = 112.0
-offset_top = 126.0
-offset_right = 202.0
-offset_bottom = 162.0
+offset_left = 96.0
+offset_top = 85.0
+offset_right = 186.0
+offset_bottom = 121.0
 theme_override_font_sizes/font_size = 25
 text = "Music"
 
 [node name="AudioControlSFX" type="HSlider" parent="Options/Fläche"]
 layout_mode = 0
-offset_left = 261.0
-offset_top = 171.0
-offset_right = 523.0
-offset_bottom = 260.0
+offset_left = 202.0
+offset_top = 114.0
+offset_right = 386.0
+offset_bottom = 215.0
 theme_override_styles/slider = SubResource("StyleBoxLine_evcnd")
 theme_override_styles/grabber_area = SubResource("StyleBoxLine_apnl6")
 theme_override_styles/grabber_area_highlight = SubResource("StyleBoxLine_o56ch")
@@ -269,19 +269,19 @@ audio_bus_name = "SFX"
 
 [node name="Label_VFX" type="Label" parent="Options/Fläche"]
 layout_mode = 0
-offset_left = 111.0
-offset_top = 199.0
-offset_right = 201.0
-offset_bottom = 235.0
+offset_left = 113.0
+offset_top = 142.0
+offset_right = 203.0
+offset_bottom = 178.0
 theme_override_font_sizes/font_size = 25
 text = "SFX"
 
 [node name="Button" type="Button" parent="Options/Fläche"]
 layout_mode = 0
-offset_left = 230.0
-offset_top = 396.0
-offset_right = 378.0
-offset_bottom = 474.0
+offset_left = 183.0
+offset_top = 271.0
+offset_right = 284.0
+offset_bottom = 337.0
 theme_override_font_sizes/font_size = 27
 theme_override_styles/focus = SubResource("StyleBoxEmpty_fljsd")
 theme_override_styles/hover = SubResource("StyleBoxFlat_f6ygo")
@@ -290,10 +290,10 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_xkpn2")
 text = "Exit"
 
 [node name="Start" type="Button" parent="."]
-offset_left = 627.0
-offset_top = 352.0
-offset_right = 890.0
-offset_bottom = 484.0
+offset_left = 589.0
+offset_top = 193.0
+offset_right = 779.0
+offset_bottom = 285.0
 theme_override_font_sizes/font_size = 40
 theme_override_styles/focus = SubResource("StyleBoxEmpty_w568w")
 theme_override_styles/hover = SubResource("StyleBoxFlat_evcnd")
@@ -302,10 +302,10 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_n4ohu")
 text = "Start"
 
 [node name="Settings" type="Button" parent="."]
-offset_left = 689.0
-offset_top = -487.0
-offset_right = 853.0
-offset_bottom = -422.0
+offset_left = 672.0
+offset_top = -238.0
+offset_right = 786.0
+offset_bottom = -178.0
 theme_override_font_sizes/font_size = 20
 theme_override_styles/focus = SubResource("StyleBoxEmpty_evcnd")
 theme_override_styles/hover = SubResource("StyleBoxFlat_o56ch")

@@ -6,3 +6,4 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 		for node in get_parent().get_children():
 			node.modulate = Color(1,1,1)
 		self.modulate = Color(1,0,0)
+		print(name)

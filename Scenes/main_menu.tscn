@@ -11,3 +11,5 @@
 
 [node name="Map Country Picker" parent="CanvasLayer" instance=ExtResource("2_48xlc")]
 position = Vector2(302, 278)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
