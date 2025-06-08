@@ -1,8 +1,9 @@
+TextEdit
+Button
 Sprite2D
 CanvasLayer
 Camera2D
 Area2D
-Button
 AudioStreamPlayer2D
 Label
 CheckButton

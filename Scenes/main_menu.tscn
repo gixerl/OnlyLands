@@ -1,15 +1,72 @@
-[gd_scene load_steps=3 format=3 uid="uid://5tirhap84hwt"]
+[gd_scene load_steps=8 format=3 uid="uid://5tirhap84hwt"]
 
 [ext_resource type="PackedScene" uid="uid://cv50v0enxc5r4" path="res://Scenes/map.tscn" id="1_28flt"]
+[ext_resource type="Script" uid="uid://bhve3hi8j3vrj" path="res://Scenes/main_menu.gd" id="1_ce3w2"]
+[ext_resource type="Texture2D" uid="uid://cgcgwy2leyy8v" path="res://Assets/Characters/germany.png" id="2_1ehe0"]
 [ext_resource type="PackedScene" uid="uid://wbfrm5ow7s1w" path="res://Scenes/Picking_Country.tscn" id="2_48xlc"]
 
-[node name="Main Menu" type="Node2D"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1ehe0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ce3w2"]
+bg_color = Color(5.36658e-06, 0.121687, 0.392672, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1ehe0"]
+bg_color = Color(8.23036e-06, 0.163983, 0.499839, 1)
+corner_radius_top_left = 25
+corner_radius_top_right = 25
+corner_radius_bottom_right = 25
+corner_radius_bottom_left = 25
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_ce3w2")
 
 [node name="Map" parent="." instance=ExtResource("1_28flt")]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
+[node name="Characters" type="Sprite2D" parent="CanvasLayer"]
+visible = false
+position = Vector2(114, 494)
+scale = Vector2(0.221, 0.2)
+texture = ExtResource("2_1ehe0")
+
 [node name="Map Country Picker" parent="CanvasLayer" instance=ExtResource("2_48xlc")]
 position = Vector2(302, 278)
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Info" type="Button" parent="CanvasLayer"]
+visible = false
+offset_left = 5.0
+offset_top = 613.0
+offset_right = 28.0
+offset_bottom = 636.0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_1ehe0")
+theme_override_styles/hover = SubResource("StyleBoxFlat_ce3w2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_1ehe0")
+theme_override_styles/normal = SubResource("StyleBoxFlat_1ehe0")
+text = "i."
+
+[node name="Informationen" type="TextEdit" parent="CanvasLayer"]
+visible = false
+offset_left = 22.0
+offset_top = 360.0
+offset_right = 274.0
+offset_bottom = 603.0
+text = "Paul von Hindenburg (1847–1934) war ein deutscher Generalfeldmarschall und Politiker. Er wurde als Held des Ersten Weltkriegs berühmt, besonders durch seinen Sieg in der Schlacht von Tannenberg (1914). Nach dem Krieg war er von 1925 bis zu seinem Tod 1934 Reichspräsident der Weimarer Republik. Hindenburg ernannte 1933 Adolf Hitler zum Reichskanzler, was maßgeblich zum Beginn der NS-Diktatur führte. Seine Amtszeit war geprägt von politischer Instabilität und dem Aufstieg des Nationalsozialismus."
+editable = false
+context_menu_enabled = false
+emoji_menu_enabled = false
+shortcut_keys_enabled = false
+selecting_enabled = false
+deselect_on_focus_loss_enabled = false
+drag_and_drop_selection_enabled = false
+virtual_keyboard_enabled = false
+middle_mouse_paste_enabled = false
+empty_selection_clipboard_enabled = false
+wrap_mode = 1
+use_default_word_separators = false
+
+[connection signal="pressed" from="CanvasLayer/Info" to="." method="_on_button_pressed"]
