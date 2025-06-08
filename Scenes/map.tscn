@@ -1,9 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://cv50v0enxc5r4"]
+[gd_scene load_steps=3 format=3 uid="uid://cv50v0enxc5r4"]
 
 [ext_resource type="Script" uid="uid://d1tt18q0q3xg6" path="res://Scenes/map.gd" id="1_s486e"]
+[ext_resource type="Script" uid="uid://cibvewujevwnr" path="res://Scripts/camera_2d.gd" id="2_7yn8b"]
 
 [node name="Map" type="Node2D"]
 script = ExtResource("1_s486e")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(3, 3)
+script = ExtResource("2_7yn8b")
