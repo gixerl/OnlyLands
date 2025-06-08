@@ -18,7 +18,7 @@ func Zoom(delta):
 	if Input.is_action_pressed("camera_zoom_out"):
 		zoomTarget = zoom*0.9
 	
-	if zoomTarget.x < 20 && zoomTarget.x >= 3:
+	if zoomTarget.x < 50 && zoomTarget.x >= 3:
 		zoom = zoom.slerp(zoomTarget, zoomSpeed * delta)
 	else:
 		zoomTarget = zoomTargetBefore 

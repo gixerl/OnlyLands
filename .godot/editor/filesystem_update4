@@ -3,3 +3,7 @@ res://Scenes/Picking_Country.tscn
 res://Scenes/Map.tscn
 res://Scenes/country.tscn
 res://Scripts/camera_2d.gd
+res://Scenes/map.gd
+res://Assets/Map/countries-attributes.txt
+res://README.md
+res://Scenes/country.gd

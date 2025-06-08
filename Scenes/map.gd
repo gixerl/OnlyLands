@@ -1,13 +1,28 @@
 extends Node2D
-var file_path = "res://Assets/Map/countries-nodes.txt"
+var nodes_path = "res://Assets/Map/countries-nodes.txt"
 var country_scene = preload("res://Scenes/country.tscn")
+var attributes_path = "res://Assets/Map/countries-attributes.txt"
+var names = {}
 
 func _ready() -> void:
-	var file = FileAccess.open(file_path,FileAccess.READ)
+	var nodes = FileAccess.open(nodes_path,FileAccess.READ)
+	var attributes = FileAccess.open(attributes_path, FileAccess.READ)
 	var polygons = {}
 	
-	while not file.eof_reached():
-		var line = file.get_line()
+	#set up Names Dictionary
+	while not attributes.eof_reached():
+		var line = attributes.get_line()
+		var parts = line.split(",")
+		var shapeid = 0
+		if parts.size() < 10:
+			continue
+		shapeid=parts[0].to_int()
+		var name = parts[19]
+		names[shapeid] = name
+		
+	#set up polygons Dictionary
+	while not nodes.eof_reached():
+		var line = nodes.get_line()
 		var parts = line.split(",")
 		var shapeid = 0
 		var partid = 0
@@ -29,7 +44,7 @@ func _ready() -> void:
 	
 func create_shape(shapeid,parts):
 	var shape_area=country_scene.instantiate()
-	shape_area.name = str(shapeid)
+	shape_area.name = names[shapeid]
 	add_child(shape_area)
 	
 	for partid in range(parts.size()):
@@ -46,6 +61,14 @@ func create_part(parent_node,partid,points):
 	collision_polygon.polygon=unique_points
 	collision_polygon.name= str(partid)
 	
+	var line = Line2D.new()
+	line.points=unique_points
+	line.name= str(partid)
+	line.modulate = Color(0,0,0,0.8)
+	line.width = 0.3
+	line.closed=true
+	
 	parent_node.add_child(polygon)
 	parent_node.add_child(collision_polygon)
+	parent_node.add_child(line)
 	
