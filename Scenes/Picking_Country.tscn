@@ -1,6 +1,5 @@
-[gd_scene load_steps=30 format=3 uid="uid://wbfrm5ow7s1w"]
+[gd_scene load_steps=29 format=3 uid="uid://wbfrm5ow7s1w"]
 
-[ext_resource type="Texture2D" uid="uid://cftq3ladxdfu1" path="res://Europe Map 2D.jpg" id="1_c8wjh"]
 [ext_resource type="Script" uid="uid://ccni6aiyxbdeq" path="res://Scenes/audio_control.gd" id="2_apnl6"]
 [ext_resource type="AudioStream" uid="uid://6ittdu37xfgs" path="res://Soundtracks/04. Home Music Part 1.mp3" id="2_evcnd"]
 [ext_resource type="Script" uid="uid://c8emaa5r2nrwh" path="res://Scenes/fullscreen_controler.gd" id="3_o56ch"]
@@ -158,10 +157,6 @@ corner_radius_bottom_left = 30
 [node name="Map Country Picker" type="Node2D"]
 script = SubResource("GDScript_w568w")
 
-[node name="EuropeMap2d" type="Sprite2D" parent="."]
-position = Vector2(-1, 1)
-texture = ExtResource("1_c8wjh")
-
 [node name="Options" type="Panel" parent="."]
 anchors_preset = 8
 anchor_left = 0.5
@@ -293,9 +288,6 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_f6ygo")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_gdb7b")
 theme_override_styles/normal = SubResource("StyleBoxFlat_xkpn2")
 text = "Exit"
-
-[node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(0.6, 0.6)
 
 [node name="Start" type="Button" parent="."]
 offset_left = 627.0
