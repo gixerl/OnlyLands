@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b3hnw6hn2kbdx"
-path="res://.godot/imported/france.png-3bff2f276be10d2d67d145ca684dee6b.ctex"
+uid="uid://bu1y6ehkgy2kq"
+path="res://.godot/imported/Italy.png-67be41a298420d76643a21e05002672c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/france.png"
-dest_files=["res://.godot/imported/france.png-3bff2f276be10d2d67d145ca684dee6b.ctex"]
+source_file="res://Assets/Characters/Italy.png"
+dest_files=["res://.godot/imported/Italy.png-67be41a298420d76643a21e05002672c.ctex"]
 
 [params]
 

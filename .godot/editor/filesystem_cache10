@@ -1,17 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1749422542
+::res://::1749480348
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::5677815808059208094::1749397791::0::1::::<><><>0<>0<><>::
 Europe Map 2D.jpg::CompressedTexture2D/CompressedTexture2D::5164030814941118270::1749397791::1749397791::1::::<><><>0<>0<>f5a691a571a9d205f8a13738fa7813d4<>res://.godot/imported/Europe Map 2D.jpg-6be042816b913193a83b11ec4a1c5551.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::2909781261834108794::1749397791::1749397791::1::::<><><>0<>0<>df83e5f638b040ed3281fbf7a9ffb5dd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+KnownProblems.txt::TextFile/TextFile::-1::1749424602::0::1::::<><><>0<>0<><>::
 README.md::TextFile/TextFile::-1::1749414725::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1749421068
-::res://Assets/Characters/::1749418027
-france.png::CompressedTexture2D/CompressedTexture2D::4366989197872919265::1749417411::1749418013::1::::<><><>0<>0<>06a1bfe1e89cd71e8a987ec6ca1a6a43<>res://.godot/imported/france.png-3bff2f276be10d2d67d145ca684dee6b.ctex::
-germany.png::CompressedTexture2D/CompressedTexture2D::5198508076921252343::1749416988::1749418005::1::::<><><>0<>0<>5d51bec809d34dd52c39a34840aa035d<>res://.godot/imported/germany.png-9b844589b32f223a94aef90551b9cacb.ctex::
-italy.png::CompressedTexture2D/CompressedTexture2D::3845384166867128432::1749416903::1749418027::1::::<><><>0<>0<>9b2e211d306758d84567ac12cff8cb83<>res://.godot/imported/italy.png-75c293daf44ed53ce4b84529e7f93e14.ctex::
-::res://Assets/Infos/::1749421187
-france.txt::TextFile/TextFile::-1::1749421154::0::1::::<><><>0<>0<><>::
-germany.txt::TextFile/TextFile::-1::1749421125::0::1::::<><><>0<>0<><>::
+::res://Assets/Characters/::1749480292
+France.png::CompressedTexture2D/CompressedTexture2D::4366989197872919265::1749417411::1749480273::1::::<><><>0<>0<>6b4fdce1145c273a7d15b96253961cbf<>res://.godot/imported/France.png-d2162997780537f9df1a8c61311080a0.ctex::
+Germany.png::CompressedTexture2D/CompressedTexture2D::5198508076921252343::1749416988::1749480283::1::::<><><>0<>0<>b7372bf12cf19f41a79e0d7f1eea75d4<>res://.godot/imported/Germany.png-d7605deb3c7f9e9c8f898de745b45d94.ctex::
+Italy.png::CompressedTexture2D/CompressedTexture2D::3845384166867128432::1749416903::1749480292::1::::<><><>0<>0<>4479eb1c304f1ce966fab45d78e3e709<>res://.godot/imported/Italy.png-67be41a298420d76643a21e05002672c.ctex::
+::res://Assets/Infos/::1749480348
+France.txt::TextFile::-1::1749421154::0::1::::<><><>0<>0<><>::
+Germany.txt::TextFile::-1::1749421125::0::1::::<><><>0<>0<><>::
 italy.txt::TextFile/TextFile::-1::1749421187::0::1::::<><><>0<>0<><>::
 ::res://Assets/Map/::1749421933
 attributes_index_finder.txt::TextFile/TextFile::-1::1749414725::0::1::::<><><>0<>0<><>::
@@ -21,17 +22,17 @@ countries-nodes.txt::TextFile/TextFile::-1::1749397791::0::1::::<><><>0<>0<><>::
 04. Home Music Part 1.mp3::AudioStreamMP3/AudioStreamMP3::2193556917540241322::1749397791::1749399258::1::::<><><>0<>0<>674de52b21574b7c4142435fbc1871a7<>res://.godot/imported/04. Home Music Part 1.mp3-7c3723fa2f8561746dcb939c369daebe.mp3str::
 clash_of_clan_start_up_soundmp3converter.mp3::AudioStreamMP3/AudioStreamMP3::8273464699478959773::1749397791::1749399258::1::::<><><>0<>0<>dc4e918e80a30584fc53528ddf61cde9<>res://.godot/imported/clash_of_clan_start_up_soundmp3converter.mp3-a1a766fe2f637e71b0e113a5a846a32f.mp3str::
 Select.mp3::AudioStreamMP3/AudioStreamMP3::2289738341525530203::1749397791::1749399258::1::::<><><>0<>0<>7774ab2b1c5e566934afff3b6fa68f88<>res://.godot/imported/Select.mp3-be05e93b40be0355c2affa518aac7d0f.mp3str::
-::res://Scenes/::1749421982
+::res://Scenes/::1749480316
 audio_control.gd::GDScript/GDScript::4940597074497891612::1749397791::0::1::::<>HSlider<><>0<>0<><>::
 audio_control_vfx.gd::GDScript/GDScript::4143422361732286457::1749397791::0::1::::<>HSlider<><>0<>0<><>::
-country.gd::GDScript::1804680275187150878::1749421982::0::1::::<>Area2D<><>0<>0<><>::
-country.tscn::PackedScene::8018436074180929022::1749421982::0::1::::<><><>0<>0<><>::uid://0yg25ptiixko::::res://Scenes/country.gd
+country.gd::GDScript/GDScript::1804680275187150878::1749480316::0::1::::<>Area2D<><>0<>0<><>::
+country.tscn::PackedScene/PackedScene::8018436074180929022::1749480316::0::1::::<><><>0<>0<><>::uid://0yg25ptiixko::::res://Scenes/country.gd
 fullscreen_controler.gd::GDScript/GDScript::7098059369523854575::1749397791::0::1::::<>CheckButton<><>0<>0<><>::
 main_menu.gd::GDScript/GDScript::2921387773729393711::1749421296::0::1::::<>Node2D<><>0<>0<><>::
-main_menu.tscn::PackedScene::2145404949296852339::1749421982::0::1::::<><><>0<>0<><>::uid://cv50v0enxc5r4::::res://Scenes/map.tscn<>uid://bhve3hi8j3vrj::::res://Scenes/main_menu.gd<>uid://cgcgwy2leyy8v::::res://Assets/Characters/germany.png<>uid://wbfrm5ow7s1w::::res://Scenes/Picking_Country.tscn
+main_menu.tscn::PackedScene/PackedScene::2145404949296852339::1749480316::0::1::::<><><>0<>0<><>::uid://cv50v0enxc5r4::::res://Scenes/map.tscn<>uid://bhve3hi8j3vrj::::res://Scenes/main_menu.gd<>uid://cgcgwy2leyy8v::::res://Assets/Characters/Germany.png<>uid://wbfrm5ow7s1w::::res://Scenes/Picking_Country.tscn
 map.gd::GDScript/GDScript::9024596975645190727::1749414725::0::1::::<>Node2D<><>0<>0<><>::
-map.tscn::PackedScene::6310295162782321271::1749421982::0::1::::<><><>0<>0<><>::uid://d1tt18q0q3xg6::::res://Scenes/map.gd<>uid://cibvewujevwnr::::res://Scripts/camera_2d.gd
-Picking_Country.tscn::PackedScene::1546553558542096754::1749421982::0::1::::<><><>0<>0<><>::uid://ccni6aiyxbdeq::::res://Scenes/audio_control.gd<>uid://6ittdu37xfgs::::res://Assets/Soundtracks/04. Home Music Part 1.mp3<>uid://c8emaa5r2nrwh::::res://Scenes/fullscreen_controler.gd<>uid://b0bdtcpbfx6en::::res://Scenes/audio_control_vfx.gd<>uid://dp4y0wt6kose4::::res://Assets/Soundtracks/clash_of_clan_start_up_soundmp3converter.mp3<>uid://7vfwkjps423p::::res://Assets/Soundtracks/Select.mp3
+map.tscn::PackedScene/PackedScene::6310295162782321271::1749480316::0::1::::<><><>0<>0<><>::uid://d1tt18q0q3xg6::::res://Scenes/map.gd<>uid://cibvewujevwnr::::res://Scripts/camera_2d.gd
+Picking_Country.tscn::PackedScene/PackedScene::1546553558542096754::1749480316::0::1::::<><><>0<>0<><>::uid://ccni6aiyxbdeq::::res://Scenes/audio_control.gd<>uid://6ittdu37xfgs::::res://Assets/Soundtracks/04. Home Music Part 1.mp3<>uid://c8emaa5r2nrwh::::res://Scenes/fullscreen_controler.gd<>uid://b0bdtcpbfx6en::::res://Scenes/audio_control_vfx.gd<>uid://dp4y0wt6kose4::::res://Assets/Soundtracks/clash_of_clan_start_up_soundmp3converter.mp3<>uid://7vfwkjps423p::::res://Assets/Soundtracks/Select.mp3
 ::res://Scripts/::1749397791
 camera_2d.gd::GDScript/GDScript::5337699881093143211::1749397791::0::1::::<>Camera2D<><>0<>0<><>::
 ::res://Sprites/::1749397791

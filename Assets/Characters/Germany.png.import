@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgcgwy2leyy8v"
-path="res://.godot/imported/germany.png-9b844589b32f223a94aef90551b9cacb.ctex"
+path="res://.godot/imported/Germany.png-d7605deb3c7f9e9c8f898de745b45d94.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/germany.png"
-dest_files=["res://.godot/imported/germany.png-9b844589b32f223a94aef90551b9cacb.ctex"]
+source_file="res://Assets/Characters/Germany.png"
+dest_files=["res://.godot/imported/Germany.png-d7605deb3c7f9e9c8f898de745b45d94.ctex"]
 
 [params]
 

@@ -13,10 +13,9 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 		for node in get_parent().get_children():
 			node.modulate = Color(1,1,1)
 		self.modulate = Color(1,0,0)
-		new_texture = load("res://Assets/Characters/%s.png" % name.to_lower())
-		new_text = FileAccess.open("res://Assets/Infos/%s.txt" % name.to_lower(), FileAccess.READ)
+		new_texture = load("res://Assets/Characters/%s.png" % name)
+		new_text = FileAccess.open("res://Assets/Infos/%s.txt" % name, FileAccess.READ)
 		new_text = new_text.get_as_text()
-		print(characters)
 		characters.visible = true
 		info.visible = true
 		characters.texture = new_texture
