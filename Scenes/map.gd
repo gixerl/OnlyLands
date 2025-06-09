@@ -65,9 +65,11 @@ func _ready() -> void:
 		create_shape(shapeid, polygons[shapeid])
 	
 func create_shape(shapeid,parts):
+	#create new country scene
 	var shape_area=country_scene.instantiate()
-
+	#add name and color to new country
 	shape_area.name = names[shapeid]
+	shape_area.country_color = Color(colors_dict.get(shape_area.name,Color(1,1,1)) ,0.8 )
 	add_child(shape_area)
 	
 	for partid in range(parts.size()):
@@ -87,7 +89,7 @@ func create_part(parent_node,partid,points):
 	var line = Line2D.new()
 	line.points=unique_points
 	line.name= str(partid)
-	line.modulate = Color(0,0,0,0.8)
+	line.modulate = Color(0,0,0)
 	line.width = 0.3
 	line.closed=true
 	
@@ -95,3 +97,53 @@ func create_part(parent_node,partid,points):
 	parent_node.add_child(collision_polygon)
 	parent_node.add_child(line)
 	
+
+#dictionary mapping countries to their colors
+var colors_dict := {
+	"Albania":              Color("#E41C24"),
+	"Andorra":              Color("#ED2939"),
+	"Austria":              Color("#ED2939"),
+	"Belarus":              Color("#C8313E"),
+	"Belgium":              Color("#000000"),
+	"Bosnia and Herzegovina": Color("#002395"),
+	"Bulgaria":             Color("#00966E"),
+	"Croatia":              Color("#171796"),
+	"Cyprus":               Color("#D57800"),  # copper-orange
+	"Czech Republic":       Color("#11457E"),
+	"Denmark":              Color("#C60C30"),
+	"Estonia":              Color("#0071B7"),
+	"Finland":              Color("#003580"),
+	"France":               Color("#0055A4"),
+	"Germany":              Color("#000000"),
+	"Greece":               Color("#0D5EAF"),
+	"Hungary":              Color("#C8102E"),
+	"Iceland":              Color("#003897"),
+	"Ireland":              Color("#169B62"),
+	"Italy":                Color("#009246"),
+	"Latvia":               Color("#9E3039"),
+	"Liechtenstein":        Color("#0022A5"),
+	"Lithuania":            Color("#FDB913"),
+	"Luxembourg":           Color("#009BDE"),
+	"Malta":                Color("#C60C30"),
+	"Moldova":              Color("#0033A0"),
+	"Monaco":               Color("#CE1126"),
+	"Montenegro":           Color("#D10C17"),
+	"Netherlands":          Color("#AE1C28"),
+	"North Macedonia":      Color("#D20000"),
+	"Norway":               Color("#BA0C2F"),
+	"Poland":               Color("#DC143C"),
+	"Portugal":             Color("#006600"),
+	"Romania":              Color("#002B7F"),
+	"Russia":               Color("#D52B1E"),
+	"San Marino":           Color("#00AEEF"),
+	"Serbia":               Color("#C6363C"),
+	"Slovakia":             Color("#0B4F9F"),
+	"Slovenia":             Color("#0058A8"),
+	"Spain":                Color("#AA151B"),
+	"Sweden":               Color("#006AA7"),
+	"Switzerland":          Color("#FF0000"),
+	"Turkey":               Color("#E30A17"),
+	"Ukraine":              Color("#0057B8"),
+	"United Kingdom":       Color("#00247D"),
+	"Vatican City":         Color("#FFD700"),
+}
