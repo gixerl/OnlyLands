@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cv50v0enxc5r4" path="res://Scenes/map.tscn" id="1_28flt"]
 [ext_resource type="Script" uid="uid://bhve3hi8j3vrj" path="res://Scenes/main_menu.gd" id="1_ce3w2"]
-[ext_resource type="Texture2D" uid="uid://cgcgwy2leyy8v" path="res://Assets/Characters/Germany.png" id="2_1ehe0"]
+[ext_resource type="Texture2D" uid="uid://tb7ssgukgnpx" path="res://Assets/Characters/Germany.png" id="2_1ehe0"]
 [ext_resource type="PackedScene" uid="uid://wbfrm5ow7s1w" path="res://Scenes/Picking_Country.tscn" id="2_48xlc"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1ehe0"]

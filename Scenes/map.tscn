@@ -10,3 +10,7 @@ script = ExtResource("1_s486e")
 position = Vector2(8, -58)
 zoom = Vector2(12, 12)
 script = ExtResource("2_7yn8b")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.333333, 0.611765, 1, 1)
+polygon = PackedVector2Array(-727, -491, 1143, -487, 1171, 621, -745, 657)
