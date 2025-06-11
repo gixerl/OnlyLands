@@ -29,7 +29,6 @@ script = ExtResource("1_ce3w2")
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
 [node name="Characters" type="Sprite2D" parent="CanvasLayer"]
-visible = false
 position = Vector2(114, 494)
 scale = Vector2(0.221, 0.2)
 texture = ExtResource("2_1ehe0")
@@ -38,7 +37,6 @@ texture = ExtResource("2_1ehe0")
 position = Vector2(302, 278)
 
 [node name="Info" type="Button" parent="CanvasLayer"]
-visible = false
 offset_left = 5.0
 offset_top = 613.0
 offset_right = 28.0
@@ -47,10 +45,11 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_1ehe0")
 theme_override_styles/hover = SubResource("StyleBoxFlat_ce3w2")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_1ehe0")
 theme_override_styles/normal = SubResource("StyleBoxFlat_1ehe0")
-text = "i."
+toggle_mode = true
+action_mode = 0
+text = "i"
 
 [node name="Informationen" type="TextEdit" parent="CanvasLayer"]
-visible = false
 offset_left = 22.0
 offset_top = 360.0
 offset_right = 274.0

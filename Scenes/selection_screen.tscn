@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://cl222wp0oedwu"]
+
+[ext_resource type="PackedScene" uid="uid://cv50v0enxc5r4" path="res://Scenes/map.tscn" id="1_w3yxc"]
+[ext_resource type="Script" uid="uid://bhve3hi8j3vrj" path="res://Scenes/main_menu.gd" id="1_ycl7u"]
+[ext_resource type="Texture2D" uid="uid://tb7ssgukgnpx" path="res://Assets/Characters/Germany.png" id="3_j2a3b"]
+[ext_resource type="PackedScene" uid="uid://wbfrm5ow7s1w" path="res://Scenes/Picking_Country.tscn" id="4_5x0nw"]
+
+[node name="Selection_screen" type="Node2D"]
+script = ExtResource("1_ycl7u")
+
+[node name="Map" parent="." instance=ExtResource("1_w3yxc")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Characters" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(114, 494)
+scale = Vector2(0.222, 0.201)
+texture = ExtResource("3_j2a3b")
+
+[node name="Enemies" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(1024, 494)
+scale = Vector2(0.222, 0.201)
+texture = ExtResource("3_j2a3b")
+
+[node name="Map Country Picker2" parent="CanvasLayer" instance=ExtResource("4_5x0nw")]
+position = Vector2(302, 278)
+show_start = false
+show_attack = true
