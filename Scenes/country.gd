@@ -16,6 +16,8 @@ func _ready():
 
 func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if event is InputEventMouseButton and event.button_index==MOUSE_BUTTON_LEFT and event.pressed:
+		if GameState.country_locked and self.name == GameState.selected_country:
+			return
 		for node in get_parent().get_children():
 			if "country_color" in node:
 				# the own country cannot be changed after pressing the start button
@@ -23,7 +25,7 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 				if node.name == GameState.selected_country and GameState.country_locked:
 					continue
 				elif node.name == GameState.selected_enemy and GameState.enemy_locked:
-					continue
+					continue					
 				else:
 					node.modulate = node.country_color
 		if !(GameState.country_locked and GameState.enemy_locked):
@@ -34,7 +36,6 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 			GameState.selected_enemy = name
 		else:
 			return
-		print()
 		if get_tree().current_scene.name == "Main":
 			new_texture = load("res://Assets/Characters/%s.png" % name)
 			characters.visible = true
