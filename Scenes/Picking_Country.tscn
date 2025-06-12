@@ -53,7 +53,8 @@ func _on_settings_pressed() -> void:
 func _on_back_pressed() -> void:
 #	TODO: remove comment
 #	$Click_Normal.play()
-	start.visible = true
+	start.visible = show_start
+	attack.visible = show_attack
 	settings.visible = true
 	options.visible = false
 

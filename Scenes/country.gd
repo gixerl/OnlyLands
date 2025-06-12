@@ -26,19 +26,25 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 					continue
 				else:
 					node.modulate = node.country_color
-		self.modulate = Color(1, 0, 0)
+		if !(GameState.country_locked and GameState.enemy_locked):
+			self.modulate = Color(1, 0, 0)
 		if not GameState.country_locked:
 			GameState.selected_country = name
 		elif not GameState.enemy_locked:
 			GameState.selected_enemy = name
 		else:
 			return
-		if characters != null:
+		print()
+		if get_tree().current_scene.name == "Main":
 			new_texture = load("res://Assets/Characters/%s.png" % name)
 			characters.visible = true
 			characters.texture = new_texture
 		else:
 			assert(GameState.country_locked == true)	# should be in selection screen
+			characters = get_tree().root.get_node("Selection_screen/CanvasLayer/Characters")
+			new_texture = load("res://Assets/Characters/%s.png" % GameState.selected_country)
+			characters.texture = new_texture
+			characters.visible = true
 			enemies = get_tree().root.get_node("Selection_screen/CanvasLayer/Enemies")
 			new_texture = load("res://Assets/Characters/%s.png" % name)
 			enemies.visible = true
