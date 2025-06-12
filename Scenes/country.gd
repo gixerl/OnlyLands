@@ -16,6 +16,7 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 			if "country_color" in node:
 				node.modulate = node.country_color
 		self.modulate = Color(1,0,0)
+		print(name)
 		new_texture = load("res://Assets/Characters/%s.png" % name)
 		new_text = FileAccess.open("res://Assets/Infos/%s.txt" % name, FileAccess.READ)
 		new_text = new_text.get_as_text()
