@@ -1,3 +1,4 @@
 Edges von Kameras
 Character Animation
 Fehlende Textdatein für Infos sorgen für Crash
+Character für eigenes Land wird im selection screen erst nach linkem Mausklick angezeigt
