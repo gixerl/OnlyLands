@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://cv50v0enxc5r4"]
+[gd_scene load_steps=4 format=3 uid="uid://cv50v0enxc5r4"]
 
 [ext_resource type="Script" uid="uid://d1tt18q0q3xg6" path="res://Scenes/map.gd" id="1_s486e"]
 [ext_resource type="Script" uid="uid://cibvewujevwnr" path="res://Scripts/camera_2d.gd" id="2_7yn8b"]
+[ext_resource type="PackedScene" uid="uid://dmigqab1uvd1w" path="res://Scenes/country.tscn" id="3_p3ir5"]
 
 [node name="Map" type="Node2D"]
 script = ExtResource("1_s486e")
@@ -14,3 +15,5 @@ script = ExtResource("2_7yn8b")
 [node name="Polygon2D" type="Polygon2D" parent="."]
 color = Color(0.333333, 0.611765, 1, 1)
 polygon = PackedVector2Array(-727, -491, 1143, -487, 1187, 665, -745, 657)
+
+[node name="Country" parent="." instance=ExtResource("3_p3ir5")]

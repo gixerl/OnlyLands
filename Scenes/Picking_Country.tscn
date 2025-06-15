@@ -10,31 +10,53 @@
 [sub_resource type="GDScript" id="GDScript_w568w"]
 script/source = "extends Node2D
 
+@export var show_start: bool = true
+@export var show_attack: bool = false
+
 @onready var options: Panel = $Options
 @onready var start: Button = $Start
 @onready var settings: Button = $Settings
+@onready var attack: Button = $Attack
 
 func _ready() -> void:
-	start.visible = true
+	start.visible = show_start
+	attack.visible = show_attack
 	settings.visible = true
 	options.visible = false
+	
 
 func _on_start_pressed() -> void:
+	if GameState.selected_country == \"\":
+			return
 	$Click_Start.play()
+	GameState.country_locked = true
+	await get_tree().create_timer(5).timeout
+	get_tree().change_scene_to_file(\"res://Scenes/selection_screen.tscn\")
+	
+
+func _on_attack_pressed() -> void:
+	if GameState.selected_country == GameState.selected_enemy:
+		return
+	$Click_Start.play()
+	GameState.enemy_locked = true
+	# TODO get_tree().change_scene_to_file(\"res://Scenes/attack.tscn\")
 
 
 func _on_settings_pressed() -> void:
+#	TODO: remove comment
+#	$Click_Normal.play()
 	start.visible = false
 	settings.visible = false
 	options.visible = true
-	$Click_Normal.play()
 
 
 func _on_back_pressed() -> void:
-	start.visible = true
+#	TODO: remove comment
+#	$Click_Normal.play()
+	start.visible = show_start
+	attack.visible = show_attack
 	settings.visible = true
 	options.visible = false
-	$Click_Normal.play()
 
 
 func _on_exit_pressed() -> void:
@@ -313,6 +335,18 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_lwngr")
 theme_override_styles/normal = SubResource("StyleBoxFlat_w568w")
 text = "Settings"
 
+[node name="Attack" type="Button" parent="."]
+offset_left = 189.0
+offset_top = 251.0
+offset_right = 379.0
+offset_bottom = 343.0
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_w568w")
+theme_override_styles/hover = SubResource("StyleBoxFlat_evcnd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_apnl6")
+theme_override_styles/normal = SubResource("StyleBoxFlat_n4ohu")
+text = "Attack"
+
 [node name="Click_Start" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("5_50x8q")
 bus = &"SFX"
@@ -334,3 +368,4 @@ bus = &"Music"
 [connection signal="pressed" from="Options/Fläche/Button" to="." method="_on_exit_pressed"]
 [connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="Attack" to="." method="_on_attack_pressed"]
