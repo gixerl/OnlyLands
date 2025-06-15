@@ -20,6 +20,7 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 			return
 		for node in get_parent().get_children():
 			if "country_color" in node:
+<<<<<<< HEAD
 				# the own country cannot be changed after pressing the start button
 				# TODO remove
 				if node.name == GameState.selected_country and GameState.country_locked:
@@ -55,4 +56,16 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 			new_text = new_text.get_as_text()
 			info.visible = true
 			infotext.text = new_text
+=======
+				node.modulate = node.country_color
+		self.modulate = Color(1,0,0)
+		print(name)
+		new_texture = load("res://Assets/Characters/%s.png" % name)
+		new_text = FileAccess.open("res://Assets/Infos/%s.txt" % name, FileAccess.READ)
+		new_text = new_text.get_as_text()
+		characters.visible = true
+		info.visible = true
+		characters.texture = new_texture
+		infotext.text = new_text
+>>>>>>> main
 		

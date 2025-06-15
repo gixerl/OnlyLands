@@ -5,3 +5,4 @@
 .godot/editor/script_editor_cache.cfg
 .godot/uid_cache.bin
 
+.godot/editor/*.tscn-editstate-*.cfg
