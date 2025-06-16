@@ -1,3 +1,7 @@
 res://Scenes/selection_screen.tscn
 res://Scenes/country.gd
 res://Scenes/main_menu.tscn
+res://Scenes/Picking_Country.tscn
+res://Scenes/map.tscn
+res://Scenes/country.tscn
+res://Scripts/camera_2d.gd

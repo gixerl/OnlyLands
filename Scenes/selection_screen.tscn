@@ -19,7 +19,6 @@ scale = Vector2(0.222, 0.201)
 position = Vector2(1024, 494)
 scale = Vector2(0.222, 0.201)
 
-[node name="Map Country Picker2" parent="CanvasLayer" instance=ExtResource("4_5x0nw")]
-position = Vector2(1667, 36)
+[node name="Map Country Picker" parent="CanvasLayer" instance=ExtResource("4_5x0nw")]
 show_start = false
 show_attack = true
