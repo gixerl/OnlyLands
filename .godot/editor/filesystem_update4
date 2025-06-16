@@ -1,6 +1,8 @@
 res://Scenes/main_menu.tscn
 res://Scenes/country.gd
-res://Scenes/main_menu.gd
 res://Scenes/selection_screen.tscn
+res://Scenes/game_state.gd
 res://Scenes/Picking_Country.tscn
 res://Scenes/map.tscn
+res://Scenes/country.tscn
+res://KnownProblems.txt

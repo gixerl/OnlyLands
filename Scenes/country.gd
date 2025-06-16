@@ -10,12 +10,12 @@ var new_texture
 var new_text
 func _ready():
 	self.modulate = country_color
-	if name == GameState.selected_country:
+	if GameState.conquered_countries.has(name):
 		self.modulate = Color(1, 0, 0)
 
 func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if event is InputEventMouseButton and event.button_index==MOUSE_BUTTON_LEFT and event.pressed:
-		if GameState.country_locked and self.name == GameState.selected_country:
+		if GameState.country_locked and GameState.conquered_countries.has(name):
 			return
 		for node in get_parent().get_children():
 			if "country_color" in node:
