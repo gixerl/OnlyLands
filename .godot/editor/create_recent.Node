@@ -1,6 +1,8 @@
+Label
+Timer
+Button
 Panel
 Sprite2D
-Button
 Node
 Polygon2D
 TextEdit
@@ -8,7 +10,5 @@ CanvasLayer
 Camera2D
 Area2D
 AudioStreamPlayer2D
-Label
 CheckButton
 HSlider
-Node2D

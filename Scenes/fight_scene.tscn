@@ -1,9 +1,104 @@
-[gd_scene format=3 uid="uid://xb0hf6l0mxnk"]
+[gd_scene load_steps=6 format=3 uid="uid://xb0hf6l0mxnk"]
+
+[ext_resource type="Script" uid="uid://6e41vxr15fat" path="res://Scenes/fight_scene.gd" id="1_l3x7y"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x4t7m"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_l3x7y"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wfhf3"]
+bg_color = Color(0.512413, 0.640812, 0.511889, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_l3x7y"]
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
 
 [node name="Fight_Scene" type="Node2D"]
+script = ExtResource("1_l3x7y")
 
 [node name="Panel" type="Panel" parent="."]
-offset_left = 34.0
-offset_top = -1.0
-offset_right = 121.0
-offset_bottom = 39.0
+offset_left = 46.0
+offset_top = 13.0
+offset_right = 133.0
+offset_bottom = 53.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_x4t7m")
+
+[node name="MultipleChoice" type="Panel" parent="."]
+offset_left = 370.0
+offset_top = 170.0
+offset_right = 834.0
+offset_bottom = 554.0
+
+[node name="Button" type="Button" parent="MultipleChoice"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 215.0
+offset_right = 140.0
+offset_bottom = 258.0
+scale = Vector2(1.78203, 1.68141)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_l3x7y")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wfhf3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_l3x7y")
+theme_override_styles/normal = SubResource("StyleBoxFlat_l3x7y")
+
+[node name="Button2" type="Button" parent="MultipleChoice"]
+layout_mode = 0
+offset_left = 244.0
+offset_top = 215.0
+offset_right = 359.0
+offset_bottom = 258.0
+scale = Vector2(1.78203, 1.68141)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_l3x7y")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wfhf3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_l3x7y")
+theme_override_styles/normal = SubResource("StyleBoxFlat_l3x7y")
+
+[node name="Button3" type="Button" parent="MultipleChoice"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 300.0
+offset_right = 140.0
+offset_bottom = 343.0
+scale = Vector2(1.78203, 1.68141)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_l3x7y")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wfhf3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_l3x7y")
+theme_override_styles/normal = SubResource("StyleBoxFlat_l3x7y")
+
+[node name="Button4" type="Button" parent="MultipleChoice"]
+layout_mode = 0
+offset_left = 244.0
+offset_top = 300.0
+offset_right = 359.0
+offset_bottom = 343.0
+scale = Vector2(1.78203, 1.68141)
+theme_override_styles/focus = SubResource("StyleBoxEmpty_l3x7y")
+theme_override_styles/hover = SubResource("StyleBoxFlat_wfhf3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_l3x7y")
+theme_override_styles/normal = SubResource("StyleBoxFlat_l3x7y")
+
+[node name="Timer" type="Timer" parent="MultipleChoice"]
+wait_time = 10.0
+one_shot = true
+
+[node name="Countdown" type="Label" parent="MultipleChoice"]
+offset_left = 224.0
+offset_top = 13.0
+offset_right = 303.0
+offset_bottom = 67.0
+theme_override_font_sizes/font_size = 30
+text = "00"
+
+[node name="Question" type="Label" parent="MultipleChoice"]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 90.0
+offset_right = 416.0
+offset_bottom = 158.0
+horizontal_alignment = 1
