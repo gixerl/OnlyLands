@@ -1,7 +1,6 @@
 extends Area2D
 var country_color = Color(1,1,1)
 
-
 @onready var characters = get_tree().root.get_node("Main/CanvasLayer/Characters")
 @onready var enemies = get_tree().root.get_node("CanvasLayer/Characters")
 @onready var info = get_tree().root.get_node("Main/CanvasLayer/Info")
@@ -28,11 +27,15 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 					continue					
 				else:
 					node.modulate = node.country_color
+		if GameState.country_locked and get_tree().current_scene.name == "Main":
+			return
 		if !(GameState.country_locked and GameState.enemy_locked):
 			self.modulate = Color(1, 0, 0)
 		if not GameState.country_locked:
 			GameState.selected_country = name
 		elif not GameState.enemy_locked:
+			GameState.show_attack = true
+			get_tree().root.get_node("Selection_screen/CanvasLayer/Map Country Picker/Attack").visible = true
 			GameState.selected_enemy = name
 		else:
 			return
@@ -55,4 +58,3 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 			new_text = new_text.get_as_text()
 			info.visible = true
 			infotext.text = new_text
-		

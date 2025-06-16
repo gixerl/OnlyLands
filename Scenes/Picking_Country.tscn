@@ -10,17 +10,17 @@
 [sub_resource type="GDScript" id="GDScript_w568w"]
 script/source = "extends Node2D
 
-@export var show_start: bool = true
-@export var show_attack: bool = false
+@export var show_start: bool = !GameState.country_locked
 
 @onready var options: Panel = $Options
 @onready var start: Button = $Start
-@onready var settings: Button = $Settings
+@onready var settings: Button = $Settings 
+# @onready var settings: Button = get_tree().root.get_node(\"CanvasLayer/Map Country Picker/Settings\")
 @onready var attack: Button = $Attack
 
 func _ready() -> void:
 	start.visible = show_start
-	attack.visible = show_attack
+	attack.visible = GameState.show_attack
 	settings.visible = true
 	options.visible = false
 	
@@ -28,7 +28,8 @@ func _ready() -> void:
 func _on_start_pressed() -> void:
 	if GameState.selected_country == \"\":
 			return
-	$Click_Start.play()
+	# TODO remove line
+	# $Click_Start.play()
 	GameState.country_locked = true
 	await get_tree().create_timer(5).timeout
 	get_tree().change_scene_to_file(\"res://Scenes/selection_screen.tscn\")
@@ -54,7 +55,7 @@ func _on_back_pressed() -> void:
 #	TODO: remove comment
 #	$Click_Normal.play()
 	start.visible = show_start
-	attack.visible = show_attack
+	attack.visible = GameState.show_attack
 	settings.visible = true
 	options.visible = false
 
@@ -336,6 +337,7 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_n4ohu")
 text = "Start"
 
 [node name="Attack" type="Button" parent="."]
+unique_name_in_owner = true
 offset_left = 500.0
 offset_top = 520.0
 offset_right = 690.0
@@ -357,6 +359,7 @@ volume_db = 7.924
 bus = &"SFX"
 
 [node name="Soundtrack" type="AudioStreamPlayer2D" parent="."]
+visible = false
 stream = ExtResource("2_evcnd")
 autoplay = true
 bus = &"Music"
