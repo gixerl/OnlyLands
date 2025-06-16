@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://xb0hf6l0mxnk"]
+
+[node name="Fight_Scene" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 34.0
+offset_top = -1.0
+offset_right = 121.0
+offset_bottom = 39.0

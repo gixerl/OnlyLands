@@ -1,3 +1,4 @@
+Panel
 Sprite2D
 Button
 Node
@@ -10,5 +11,4 @@ AudioStreamPlayer2D
 Label
 CheckButton
 HSlider
-Panel
 Node2D
