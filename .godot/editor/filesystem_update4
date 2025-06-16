@@ -1,6 +1,8 @@
-res://Scenes/fight_scene.tscn
-res://Scenes/country.gd
+res://Assets/neighbors.json
 res://Scenes/selection_screen.tscn
+res://Scenes/country.gd
+res://Assets/quizfragen.json
 res://Scenes/main_menu.tscn
 res://Scenes/country.tscn
-res://Scenes/Picking_Country.tscn
+res://Scenes/fight_scene.tscn
+res://Scenes/fight_scene.gd
