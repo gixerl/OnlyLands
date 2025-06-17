@@ -1,7 +1,3 @@
-res://Scenes/selection_screen.tscn
+res://Scenes/fight_scene.tscn
 res://Scenes/country.gd
 res://Scenes/fight_scene.gd
-res://Scenes/main_menu.tscn
-res://Scenes/country.tscn
-res://Scenes/fight_scene.tscn
-res://KnownProblems.txt

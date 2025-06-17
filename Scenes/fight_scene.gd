@@ -38,17 +38,7 @@ func new_MultipleChoice():
 		if(fragen["klassifizierung"]["typ"] == "Multiple Choice"):
 			Questions.append(fragen)
 	max = Questions.size()
-	#var randome_num = randi_range(min, max - 1)
-	#question_l.text = Questions[randome_num]["frage"]
-	#for option in Questions[randome_num]["optionen"]:
-		#Options.append(option)
-	#Options.shuffle()
-	#Result = Questions[randome_num]["antwort"]
-	#button.text = str(Options[0])
-	#button_2.text = str(Options[1])
-	#button_3.text = str(Options[2])
-	#button_4.text = str(Options[3])
-
+	
 func set_new_MultipleChoice():
 	if(max >= 0):
 		var Options = []
