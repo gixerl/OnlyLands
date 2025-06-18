@@ -25,24 +25,24 @@ var Quiz_Questions = preload("res://Assets/quizfragen.json")
 @onready var points_5: Panel = $Points_5
 
 
-var punkte_self = 0
-var punkte_gegner = 0
+var points_self = 0
+var points_enemy = 0
 
 func check_points():
-	if(punkte_self == 1):
+	if(points_self == 1):
 		points_1.modulate = Color("#00FF00")
-	if(punkte_self == 2):
+	if(points_self == 2):
 		points_2.modulate = Color("#00FF00")
-	if(punkte_self == 3):
+	if(points_self == 3):
 		points_win.modulate = Color("#00FF00")
 		await get_tree().create_timer(3.0).timeout
 		victory()
 		
-	if(punkte_gegner == 1):
+	if(points_enemy == 1):
 		points_5.modulate = Color("#FF0000")
-	if(punkte_gegner == 2):
+	if(points_enemy == 2):
 		points_4.modulate = Color("#FF0000")
-	if(punkte_gegner == 3):
+	if(points_enemy == 3):
 		points_win.modulate = Color("#FF0000")
 		await get_tree().create_timer(3.0).timeout
 		loss()
@@ -113,42 +113,31 @@ func set_new_MultipleChoice(MultipleChoice_question):
 
 func _on_Button1_pressed() -> void:
 	if(button.text == str(Result)):
-		print("yeah")
-		punkte_self += 1
-		set_Question()
+		
+		player_point()
 	else:
-		punkte_gegner += 1
-		set_Question()
+		enemy_point()
 
 
 func _on_button_2_pressed() -> void:
-	if(button_2.text == str(Result)):
-		print("yeah")
-		punkte_self += 1
-		set_Question()
+	if(button_2.text == str(Result)):	
+		player_point()
 	else:
-		punkte_gegner += 1
-		set_Question()
+		enemy_point()
 
 
 func _on_button_3_pressed() -> void:
 	if(button_3.text == str(Result)):
-		print("yeah")
-		punkte_self += 1
-		set_Question()
+		player_point()
 	else:
-		punkte_gegner += 1
-		set_Question()
+		enemy_point()
 
 
 func _on_button_4_pressed() -> void:
 	if(button_4.text == str(Result)):
-		print("yeah")
-		punkte_self += 1
-		set_Question()
+		player_point()
 	else:
-		punkte_gegner += 1
-		set_Question()
+		enemy_point()
 
 var Questions_Schätzfrage = []
 
@@ -171,12 +160,10 @@ func set_new_schätzFrage(Schätzfrage):
 func _on_schätz_input_field_text_submitted(answer: String) -> void:
 	if(within_margin_of_error(answer,Result,Margin)):
 		schätz_input_field.text = ""
-		print("yeah")
-		punkte_self += 1
-		set_Question()
+		player_point()
 	else:
 		schätz_input_field.text = ""
-		print("NO")
+		enemy_point()
 		
 #check if answer is within margin of error
 func within_margin_of_error(ans,result,margin):
@@ -200,7 +187,14 @@ func victory():
 func loss():
 	pass
 
+func player_point():
+	points_self += 1
+	set_Question()
+	
+func enemy_point():
+		points_enemy += 1
+		set_Question()
+		
 
 func _on_timer_timeout() -> void:
-	punkte_gegner += 1
-	set_Question()
+	enemy_point()
