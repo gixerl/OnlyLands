@@ -85,7 +85,7 @@
 			{
 				"frage_id": "albanien_6",
 				"land": "Albanien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Albanien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Albanien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 20300000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -1076,7 +1076,7 @@
 			{
 				"frage_id": "albanien_76",
 				"land": "Albanien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Albanien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Albanien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -4.3,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -1856,7 +1856,7 @@
 			{
 				"frage_id": "andorra_125",
 				"land": "Andorra",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Andorra? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Andorra? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 3.3,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -3434,7 +3434,7 @@
 			{
 				"frage_id": "armenien_244",
 				"land": "Armenien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Armenien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Armenien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 24.5,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -4425,7 +4425,7 @@
 			{
 				"frage_id": "armenien_314",
 				"land": "Armenien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Armenien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Armenien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -3.5,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -5171,7 +5171,7 @@
 			{
 				"frage_id": "österreich_363",
 				"land": "Österreich",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Österreich? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Österreich? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 500000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -6256,7 +6256,7 @@
 			{
 				"frage_id": "österreich_433",
 				"land": "Österreich",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Österreich? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Österreich? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -18.27,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -7038,7 +7038,7 @@
 			{
 				"frage_id": "aserbaidschan_482",
 				"land": "Aserbaidschan",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Aserbaidschan? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Aserbaidschan? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 78,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -7999,7 +7999,7 @@
 			{
 				"frage_id": "aserbaidschan_552",
 				"land": "Aserbaidschan",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Aserbaidschan? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Aserbaidschan? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 25000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -8764,7 +8764,7 @@
 			{
 				"frage_id": "belarus_601",
 				"land": "Belarus",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Belarus? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Belarus? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 72000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -9738,7 +9738,7 @@
 			{
 				"frage_id": "belarus_671",
 				"land": "Belarus",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Belarus? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Belarus? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 4000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -10484,7 +10484,7 @@
 			{
 				"frage_id": "belgien_720",
 				"land": "Belgien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Belgien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Belgien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 650000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -11518,7 +11518,7 @@
 			{
 				"frage_id": "belgien_790",
 				"land": "Belgien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Belgien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Belgien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 25000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -12300,7 +12300,7 @@
 			{
 				"frage_id": "bosnien_und_herzegowina_839",
 				"land": "Bosnien und Herzegowina",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Bosnien und Herzegowina? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Bosnien und Herzegowina? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 26000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -13240,7 +13240,7 @@
 			{
 				"frage_id": "bosnien_und_herzegowina_909",
 				"land": "Bosnien und Herzegowina",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Bosnien und Herzegowina? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Bosnien und Herzegowina? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -7.5,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -14018,7 +14018,7 @@
 			{
 				"frage_id": "bulgarien_958",
 				"land": "Bulgarien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Bulgarien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Bulgarien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 100000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -15005,7 +15005,7 @@
 			{
 				"frage_id": "bulgarien_1028",
 				"land": "Bulgarien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Bulgarien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Bulgarien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -8.75,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -15766,7 +15766,7 @@
 			{
 				"frage_id": "kroatien_1077",
 				"land": "Kroatien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Kroatien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Kroatien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 83,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -16804,7 +16804,7 @@
 			{
 				"frage_id": "kroatien_1147",
 				"land": "Kroatien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Kroatien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Kroatien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -10,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -17565,7 +17565,7 @@
 			{
 				"frage_id": "zypern_1196",
 				"land": "Zypern",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Zypern? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Zypern? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 30,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -18565,7 +18565,7 @@
 			{
 				"frage_id": "zypern_1266",
 				"land": "Zypern",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Zypern? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Zypern? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -9.4,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -19313,7 +19313,7 @@
 			{
 				"frage_id": "tschechien_1315",
 				"land": "Tschechien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Tschechien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Tschechien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 300000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -20398,7 +20398,7 @@
 			{
 				"frage_id": "tschechien_1385",
 				"land": "Tschechien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Tschechien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Tschechien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 8500000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -21180,7 +21180,7 @@
 			{
 				"frage_id": "dänemark_1434",
 				"land": "Dänemark",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Dänemark? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Dänemark? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 400000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -22697,7 +22697,7 @@
 			{
 				"frage_id": "estland_1573",
 				"land": "Estland",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Estland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Estland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 40000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -23748,7 +23748,7 @@
 			{
 				"frage_id": "estland_1643",
 				"land": "Estland",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Estland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Estland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -2.9,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -24547,7 +24547,7 @@
 			{
 				"frage_id": "finnland_1692",
 				"land": "Finnland",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Finnland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Finnland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 300,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -25598,7 +25598,7 @@
 			{
 				"frage_id": "finnland_1762",
 				"land": "Finnland",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Finnland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Finnland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -5.1,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -26380,7 +26380,7 @@
 			{
 				"frage_id": "frankreich_1811",
 				"land": "Frankreich",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Frankreich? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Frankreich? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 3050000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -27435,7 +27435,7 @@
 			{
 				"frage_id": "frankreich_1881",
 				"land": "Frankreich",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Frankreich? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Frankreich? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -107.5,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -28213,7 +28213,7 @@
 			{
 				"frage_id": "georgien_1930",
 				"land": "Georgien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Georgien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Georgien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 30000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -29200,7 +29200,7 @@
 			{
 				"frage_id": "georgien_2000",
 				"land": "Georgien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Georgien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Georgien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -6.5,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -29965,7 +29965,7 @@
 			{
 				"frage_id": "deutschland_2049",
 				"land": "Deutschland",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Deutschland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Deutschland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 4500,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -31050,7 +31050,7 @@
 			{
 				"frage_id": "deutschland_2119",
 				"land": "Deutschland",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Deutschland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Deutschland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 209,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -31832,7 +31832,7 @@
 			{
 				"frage_id": "griechenland_2168",
 				"land": "Griechenland",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Griechenland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Griechenland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 220000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -32900,7 +32900,7 @@
 			{
 				"frage_id": "griechenland_2238",
 				"land": "Griechenland",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Griechenland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Griechenland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -37000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -33644,7 +33644,7 @@
 			{
 				"frage_id": "ungarn_2287",
 				"land": "Ungarn",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Ungarn? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Ungarn? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 200000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -34729,7 +34729,7 @@
 			{
 				"frage_id": "ungarn_2357",
 				"land": "Ungarn",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Ungarn? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Ungarn? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 10.8,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -35135,7 +35135,7 @@
 			{
 				"frage_id": "island_2386",
 				"land": "Island",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Island? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Island? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 30000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -36169,7 +36169,7 @@
 			{
 				"frage_id": "island_2456",
 				"land": "Island",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Island? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Island? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 0.48,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -36934,7 +36934,7 @@
 			{
 				"frage_id": "irland_2505",
 				"land": "Irland",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Irland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Irland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 500000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -37989,7 +37989,7 @@
 			{
 				"frage_id": "irland_2575",
 				"land": "Irland",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Irland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Irland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 240,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -38782,7 +38782,7 @@
 			{
 				"frage_id": "italien_2624",
 				"land": "Italien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Italien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Italien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 2100000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -39799,7 +39799,7 @@
 			{
 				"frage_id": "italien_2694",
 				"land": "Italien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Italien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Italien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 37000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -40564,7 +40564,7 @@
 			{
 				"frage_id": "kosovo_2743",
 				"land": "Kosovo",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Kosovo? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Kosovo? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 9400000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -41508,7 +41508,7 @@
 			{
 				"frage_id": "kosovo_2813",
 				"land": "Kosovo",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Kosovo? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Kosovo? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -5.2,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -42254,7 +42254,7 @@
 			{
 				"frage_id": "lettland_2862",
 				"land": "Lettland",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Lettland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Lettland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 45000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -43305,7 +43305,7 @@
 			{
 				"frage_id": "lettland_2932",
 				"land": "Lettland",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Lettland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Lettland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -4.212,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -44079,7 +44079,7 @@
 			{
 				"frage_id": "liechtenstein_2981",
 				"land": "Liechtenstein",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Liechtenstein? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Liechtenstein? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 6.2,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -45785,7 +45785,7 @@
 			{
 				"frage_id": "litauen_3100",
 				"land": "Litauen",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Litauen? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Litauen? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 78000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -46870,7 +46870,7 @@
 			{
 				"frage_id": "litauen_3170",
 				"land": "Litauen",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Litauen? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Litauen? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -6.49,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -47635,7 +47635,7 @@
 			{
 				"frage_id": "luxemburg_3219",
 				"land": "Luxemburg",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Luxemburg? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Luxemburg? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 85,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -48703,7 +48703,7 @@
 			{
 				"frage_id": "luxemburg_3289",
 				"land": "Luxemburg",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Luxemburg? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Luxemburg? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -15,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -49485,7 +49485,7 @@
 			{
 				"frage_id": "malta_3338",
 				"land": "Malta",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Malta? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Malta? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 18.2,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -50438,7 +50438,7 @@
 			{
 				"frage_id": "malta_3408",
 				"land": "Malta",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Malta? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Malta? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -6.4,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -51169,7 +51169,7 @@
 			{
 				"frage_id": "moldau_3457",
 				"land": "Moldau",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Moldau? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Moldau? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 14500000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -52139,7 +52139,7 @@
 			{
 				"frage_id": "moldau_3527",
 				"land": "Moldau",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Moldau? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Moldau? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -4.5,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -52896,7 +52896,7 @@
 			{
 				"frage_id": "monaco_3576",
 				"land": "Monaco",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Monaco? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Monaco? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 8.347,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -54322,7 +54322,7 @@
 			{
 				"frage_id": "montenegro_3695",
 				"land": "Montenegro",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Montenegro? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Montenegro? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 6.7,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -55356,7 +55356,7 @@
 			{
 				"frage_id": "montenegro_3765",
 				"land": "Montenegro",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Montenegro? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Montenegro? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -2.0,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -56136,7 +56136,7 @@
 			{
 				"frage_id": "den_niederlanden_3814",
 				"land": "den Niederlanden",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von den Niederlanden? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von den Niederlanden? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 1080,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -57187,7 +57187,7 @@
 			{
 				"frage_id": "den_niederlanden_3884",
 				"land": "den Niederlanden",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von den Niederlanden? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von den Niederlanden? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 96000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -57982,7 +57982,7 @@
 			{
 				"frage_id": "nordmazedonien_3933",
 				"land": "Nordmazedonien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Nordmazedonien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Nordmazedonien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 15.6,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -58956,7 +58956,7 @@
 			{
 				"frage_id": "nordmazedonien_4003",
 				"land": "Nordmazedonien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Nordmazedonien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Nordmazedonien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -4.2,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -59727,7 +59727,7 @@
 			{
 				"frage_id": "norwegen_4052",
 				"land": "Norwegen",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Norwegen? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Norwegen? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 598000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -60761,7 +60761,7 @@
 			{
 				"frage_id": "norwegen_4122",
 				"land": "Norwegen",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Norwegen? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Norwegen? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 122.2,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -61522,7 +61522,7 @@
 			{
 				"frage_id": "polen_4171",
 				"land": "Polen",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Polen? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Polen? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 840000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -62573,7 +62573,7 @@
 			{
 				"frage_id": "polen_4241",
 				"land": "Polen",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Polen? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Polen? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 18.3,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -63336,7 +63336,7 @@
 			{
 				"frage_id": "portugal_4290",
 				"land": "Portugal",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Portugal? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Portugal? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 280000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -64370,7 +64370,7 @@
 			{
 				"frage_id": "portugal_4360",
 				"land": "Portugal",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Portugal? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Portugal? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -29.8,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -65169,7 +65169,7 @@
 			{
 				"frage_id": "rumänien_4409",
 				"land": "Rumänien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Rumänien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Rumänien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 348,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -66207,7 +66207,7 @@
 			{
 				"frage_id": "rumänien_4479",
 				"land": "Rumänien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Rumänien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Rumänien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -35000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -66955,7 +66955,7 @@
 			{
 				"frage_id": "russland_4528",
 				"land": "Russland",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Russland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Russland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 2200000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -67989,7 +67989,7 @@
 			{
 				"frage_id": "russland_4598",
 				"land": "Russland",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Russland? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Russland? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 202000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -68746,7 +68746,7 @@
 			{
 				"frage_id": "san_marino_4647",
 				"land": "San Marino",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von San Marino? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von San Marino? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 1.8,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -70100,7 +70100,7 @@
 			{
 				"frage_id": "serbien_4766",
 				"land": "Serbien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Serbien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Serbien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 75000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -71104,7 +71104,7 @@
 			{
 				"frage_id": "serbien_4836",
 				"land": "Serbien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Serbien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Serbien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -8.6,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -71886,7 +71886,7 @@
 			{
 				"frage_id": "der_slowakei_4885",
 				"land": "der Slowakei",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von der Slowakei? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von der Slowakei? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 130000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -72949,7 +72949,7 @@
 			{
 				"frage_id": "der_slowakei_4955",
 				"land": "der Slowakei",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von der Slowakei? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von der Slowakei? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 3.1,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -73714,7 +73714,7 @@
 			{
 				"frage_id": "slowenien_5004",
 				"land": "Slowenien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Slowenien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Slowenien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 68700000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -74748,7 +74748,7 @@
 			{
 				"frage_id": "slowenien_5074",
 				"land": "Slowenien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Slowenien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Slowenien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 2000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -75509,7 +75509,7 @@
 			{
 				"frage_id": "spanien_5123",
 				"land": "Spanien",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Spanien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Spanien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 1400,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -76560,7 +76560,7 @@
 			{
 				"frage_id": "spanien_5193",
 				"land": "Spanien",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Spanien? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Spanien? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -43600000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -77321,7 +77321,7 @@
 			{
 				"frage_id": "schweden_5242",
 				"land": "Schweden",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Schweden? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Schweden? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 600000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -78338,7 +78338,7 @@
 			{
 				"frage_id": "schweden_5312",
 				"land": "Schweden",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Schweden? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Schweden? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 7000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -79103,7 +79103,7 @@
 			{
 				"frage_id": "schweiz_5361",
 				"land": "Schweiz",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Schweiz? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Schweiz? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 890000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -80137,7 +80137,7 @@
 			{
 				"frage_id": "schweiz_5431",
 				"land": "Schweiz",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Schweiz? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Schweiz? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 48,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -80932,7 +80932,7 @@
 			{
 				"frage_id": "der_türkei_5480",
 				"land": "der Türkei",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von der Türkei? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von der Türkei? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 1155000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -81953,7 +81953,7 @@
 			{
 				"frage_id": "der_türkei_5550",
 				"land": "der Türkei",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von der Türkei? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von der Türkei? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -100000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -82735,7 +82735,7 @@
 			{
 				"frage_id": "ukraine_5599",
 				"land": "Ukraine",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Ukraine? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von Ukraine? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 178000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -83752,7 +83752,7 @@
 			{
 				"frage_id": "ukraine_5669",
 				"land": "Ukraine",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Ukraine? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Ukraine? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -28.1,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -84551,7 +84551,7 @@
 			{
 				"frage_id": "dem_vereinigten_königreich_5718",
 				"land": "dem Vereinigten Königreich",
-				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von dem Vereinigten Königreich? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist das Bruttoinlandsprodukt (BIP) von dem Vereinigten Königreich? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": 3300000000000,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -85585,7 +85585,7 @@
 			{
 				"frage_id": "dem_vereinigten_königreich_5788",
 				"land": "dem Vereinigten Königreich",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von dem Vereinigten Königreich? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von dem Vereinigten Königreich? (ungefähre Angabe, in Mrd. USD)",
 				"antwort": -120,
 				"klassifizierung": {
 					"schwierigkeit": "mittel",
@@ -87318,7 +87318,7 @@
 			{
 				"error": "generic_question_batch_failed",
 				"land": "Dänemark",
-				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Dänemark? (ungefähre Angabe, z.B. in Mrd. USD)",
+				"frage": "Wie hoch ist die Handelsbilanz (Wert der Exporte minus Importe) von Dänemark? (ungefähre Angabe, in Mrd. USD)",
 				"details": "Expecting ',' delimiter: line 9 column 4 (char 197)"
 			},
 			{

@@ -10,12 +10,18 @@ var Quiz_Questions = preload("res://Assets/quizfragen.json")
 @onready var button_3: Button = $MultipleChoice/Button3
 @onready var button_4: Button = $MultipleChoice/Button4
 
+#schätzfragen
+@onready var schätz_input_field: LineEdit = $"SchätzFrage/schätz_input_field"
+@onready var question_schätz : Label = $"SchätzFrage/Question"
+
 
 
 func _ready() -> void:
 	timer.start()
-	new_MultipleChoice()
-	set_new_MultipleChoice()
+	#new_MultipleChoice()
+	#set_new_MultipleChoice()
+	new_schätzFrage()
+	set_new_schätzFrage()
 	
 func time_left_to_live():
 	var time_left = timer.time_left
@@ -31,6 +37,7 @@ var Questions = []
 var min = 0
 var max
 var Result
+var Margin
 
 func new_MultipleChoice():
 	var question = Quiz_Questions.data
@@ -82,3 +89,51 @@ func _on_button_4_pressed() -> void:
 	if(button_4.text == str(Result)):
 		print("yeah")
 		set_new_MultipleChoice()
+
+
+###TEXT ENTERING Questions
+func new_schätzFrage():
+	var question = Quiz_Questions.data
+	for fragen in question[attacked_Country]["mittel"]:
+		if(fragen["klassifizierung"]["typ"] == "Schätzfrage"):
+			Questions.append(fragen)
+	max = Questions.size()
+
+func set_new_schätzFrage():
+	if(max >= 0):
+		schätz_input_field.grab_focus()
+		var randome_num = randi_range(min, max - 1)
+		question_schätz.text = Questions[randome_num]["frage"]
+		Result = Questions[randome_num]["antwort"]
+		Margin = Questions[randome_num]["klassifizierung"]["margin_of_error"]
+		Questions.pop_at(randome_num)
+		max = max - 1
+	else:
+		print("Es gibt keine Fragen mehr")
+		print(max)
+		
+
+
+func _on_schätz_input_field_text_submitted(answer: String) -> void:
+	if(within_margin_of_error(answer,Result,Margin)):
+		schätz_input_field.text = ""
+		print("yeah")
+		set_new_schätzFrage()
+	else:
+		schätz_input_field.text = ""
+		print("NO")
+		
+#check if answer is within margin of error
+func within_margin_of_error(ans,result,margin):
+	if typeof(margin) == TYPE_STRING:
+		var lowerMargin = result * ((100 - float(margin.split("%")[0])))/100
+		var upperMargin = result * ((100 + float(margin.split("%")[0])))/100
+		if(lowerMargin<= float(ans) and float(ans) <= upperMargin):
+			return true
+			
+	
+	else:
+		var lowerMargin = result - float(margin)
+		var upperMargin = result + float(margin)
+		if(lowerMargin<= float(ans) and float(ans) <= upperMargin):
+			return true
