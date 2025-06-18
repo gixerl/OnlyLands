@@ -1,7 +1,10 @@
 extends Node2D
 
-@onready var countdown: Label = $MultipleChoice/Countdown
-@onready var timer: Timer = $MultipleChoice/Timer
+@onready var timer: Timer = $Timer
+@onready var countdown: Label = $Countdown
+@onready var multiple_choice_panel: Panel = $MultipleChoice
+@onready var schätz_frage_panel: Panel = $SchätzFrage
+
 @onready var question_l: Label = $MultipleChoice/Question
 var Quiz_Questions = preload("res://Assets/quizfragen.json")
 
@@ -15,13 +18,11 @@ var Quiz_Questions = preload("res://Assets/quizfragen.json")
 @onready var question_schätz : Label = $"SchätzFrage/Question"
 
 
-
+var Questions = []
 func _ready() -> void:
 	timer.start()
-	#new_MultipleChoice()
-	#set_new_MultipleChoice()
-	new_schätzFrage()
-	set_new_schätzFrage()
+	new_Questions()
+	set_Question()
 	
 func time_left_to_live():
 	var time_left = timer.time_left
@@ -33,84 +34,88 @@ func _process(delta: float) -> void:
 	
 
 var attacked_Country = "Deutschland"
-var Questions = []
+var Questions_MultipleChoice = []
 var min = 0
 var max
 var Result
 var Margin
 
+func set_Question():
+	if(Questions[0]["klassifizierung"]["typ"] == "Multiple Choice"):
+		set_new_MultipleChoice(Questions[0])
+		multiple_choice_panel.visible = true
+		schätz_frage_panel.visible = false
+		Questions.pop_at(0)
+	else:
+		set_new_schätzFrage(Questions[0])
+		multiple_choice_panel.visible = false
+		schätz_frage_panel.visible = true
+		Questions.pop_at(0)
+
+func new_Questions():
+	var question = Quiz_Questions.data
+	for fragen in question[attacked_Country]["einfach"]:
+		Questions.append(fragen)
+	Questions.shuffle()
 func new_MultipleChoice():
 	var question = Quiz_Questions.data
 	for fragen in question[attacked_Country]["einfach"]:
 		if(fragen["klassifizierung"]["typ"] == "Multiple Choice"):
-			Questions.append(fragen)
-	max = Questions.size()
+			Questions_MultipleChoice.append(fragen)
+	max = Questions_MultipleChoice.size()
 	
-func set_new_MultipleChoice():
-	if(max >= 0):
-		var Options = []
-		var randome_num = randi_range(min, max - 1)
-		question_l.text = Questions[randome_num]["frage"]
-		for option in Questions[randome_num]["optionen"]:
-			Options.append(option)
-		Options.shuffle()
-		Result = Questions[randome_num]["antwort"]
-		button.text = str(Options[0])
-		button_2.text = str(Options[1])
-		button_3.text = str(Options[2])
-		button_4.text = str(Options[3])
-		Questions.pop_at(randome_num)
-		max = max - 1
-	else:
-		print("Es gibt keine Fragen mehr")
-		print(max)
+func set_new_MultipleChoice(MultipleChoice_question):
+	var Options = []
+	question_l.text = MultipleChoice_question["frage"]
+	for option in MultipleChoice_question["optionen"]:
+		Options.append(option)
+	Options.shuffle()
+	Result = MultipleChoice_question["antwort"]
+	button.text = str(Options[0])
+	button_2.text = str(Options[1])
+	button_3.text = str(Options[2])
+	button_4.text = str(Options[3])
 
 
 func _on_Button1_pressed() -> void:
 	if(button.text == str(Result)):
 		print("yeah")
-		set_new_MultipleChoice()
-	pass # Replace with function body.
+		set_Question()
 
 
 func _on_button_2_pressed() -> void:
 	if(button_2.text == str(Result)):
 		print("yeah")
-		set_new_MultipleChoice()
+		set_Question()
 
 
 func _on_button_3_pressed() -> void:
 	if(button_3.text == str(Result)):
 		print("yeah")
-		set_new_MultipleChoice()
+		set_Question()
 
 
 func _on_button_4_pressed() -> void:
 	if(button_4.text == str(Result)):
 		print("yeah")
-		set_new_MultipleChoice()
+		set_Question()
 
+var Questions_Schätzfrage = []
 
 ###TEXT ENTERING Questions
 func new_schätzFrage():
 	var question = Quiz_Questions.data
 	for fragen in question[attacked_Country]["mittel"]:
 		if(fragen["klassifizierung"]["typ"] == "Schätzfrage"):
-			Questions.append(fragen)
-	max = Questions.size()
+			Questions_Schätzfrage.append(fragen)
+	max = Questions_Schätzfrage.size()
 
-func set_new_schätzFrage():
-	if(max >= 0):
-		schätz_input_field.grab_focus()
-		var randome_num = randi_range(min, max - 1)
-		question_schätz.text = Questions[randome_num]["frage"]
-		Result = Questions[randome_num]["antwort"]
-		Margin = Questions[randome_num]["klassifizierung"]["margin_of_error"]
-		Questions.pop_at(randome_num)
-		max = max - 1
-	else:
-		print("Es gibt keine Fragen mehr")
-		print(max)
+func set_new_schätzFrage(Schätzfrage):
+	schätz_input_field.grab_focus()
+	var randome_num = randi_range(min, max - 1)
+	question_schätz.text = Schätzfrage["frage"]
+	Result = Schätzfrage["antwort"]
+	Margin = Schätzfrage["klassifizierung"]["margin_of_error"]
 		
 
 
@@ -118,7 +123,7 @@ func _on_schätz_input_field_text_submitted(answer: String) -> void:
 	if(within_margin_of_error(answer,Result,Margin)):
 		schätz_input_field.text = ""
 		print("yeah")
-		set_new_schätzFrage()
+		set_Question()
 	else:
 		schätz_input_field.text = ""
 		print("NO")
