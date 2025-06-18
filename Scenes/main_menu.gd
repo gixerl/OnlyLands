@@ -2,6 +2,14 @@ extends Node2D
 
 @onready var text_edit: TextEdit = $CanvasLayer/Informationen
 
+func _ready():
+	if get_tree().current_scene.name == "Selection_screen":
+		get_node("CanvasLayer/Map Country Picker/Settings").position = Vector2(974, 40)
+		get_node("CanvasLayer/Map Country Picker/Options").position = Vector2(-954, -615)
+		var characters = get_tree().root.get_node("Selection_screen/CanvasLayer/Characters")
+		var new_texture = load("res://Assets/Characters/%s.png" % GameState.selected_country)
+		characters.texture = new_texture
+		characters.visible = true
 
 func _on_button_pressed() -> void:
 	if text_edit.visible:

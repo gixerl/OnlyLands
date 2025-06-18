@@ -1,5 +1,9 @@
 Edges von Kameras
 Character Animation
+<<<<<<< HEAD
 Fehlende Textdatein für Infos sorgen für Crash
 Character für eigenes Land wird im selection screen erst nach linkem Mausklick angezeigt
 Es gibt noch ein Problem bei der Fragenauswahl
+=======
+Fullscreen Button versetzt
+>>>>>>> selection_screen

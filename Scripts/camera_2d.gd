@@ -9,7 +9,6 @@ func _process(delta):
 	Zoom(delta)
 	SimplePan(delta)
 	ClickAndDrag()
-			
 
 func Zoom(delta):
 	var zoomTargetBefore = zoomTarget
