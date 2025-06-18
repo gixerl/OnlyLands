@@ -6,3 +6,4 @@
 .godot/uid_cache.bin
 
 .godot/editor/*.tscn-editstate-*.cfg
+.godot/editor/
