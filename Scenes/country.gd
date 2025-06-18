@@ -5,17 +5,32 @@ var country_color = Color(1,1,1)
 @onready var enemies = get_tree().root.get_node("CanvasLayer/Characters")
 @onready var info = get_tree().root.get_node("Main/CanvasLayer/Info")
 @onready var infotext = get_tree().root.get_node("Main/CanvasLayer/Informationen")
+@onready var neighbors = {}
 
 var new_texture
 var new_text
 func _ready():
 	self.modulate = country_color
 	if GameState.conquered_countries.has(name):
-		self.modulate = Color(1, 0, 0)
+		self.modulate = Color(0, 1, 0)
+		var file_path = "res://Assets/neighbors.json"
+		var file = FileAccess.open(file_path, FileAccess.READ)
+		var json_content = file.get_as_text()
+		file.close()
+		var json = JSON.new()
+		var result = json.parse(json_content)
+		neighbors = json.get_data()
+		for country in GameState.conquered_countries:
+			for neib in neighbors[country]["neighbors"]:
+				if !GameState.conquered_countries.has(neib):
+					GameState.attackable_neighbors.append(neib)
+	for node in get_parent().get_children():		
+		if GameState.attackable_neighbors.has(node.name):
+			node.modulate = Color(0, 0, 1)
 
 func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if event is InputEventMouseButton and event.button_index==MOUSE_BUTTON_LEFT and event.pressed:
-		if GameState.country_locked and GameState.conquered_countries.has(name):
+		if GameState.country_locked and (GameState.conquered_countries.has(name) or !GameState.attackable_neighbors.has(name)):
 			return
 		for node in get_parent().get_children():
 			if "country_color" in node:
@@ -25,6 +40,8 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 					continue
 				elif node.name == GameState.selected_enemy and GameState.enemy_locked:
 					continue					
+				elif GameState.attackable_neighbors.has(node.name):
+					node.modulate = Color(0, 0, 1)
 				else:
 					node.modulate = node.country_color
 		if GameState.country_locked and get_tree().current_scene.name == "Main":

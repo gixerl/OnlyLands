@@ -1,393 +1,393 @@
 {
   "Albania": {
-    "neighbors": [
-      "Montenegro",
-      "Kosovo",
-      "North Macedonia",
-      "Greece"
-    ]
+	"neighbors": [
+	  "Montenegro",
+	  "Kosovo",
+	  "North Macedonia",
+	  "Greece"
+	]
   },
   "Andorra": {
-    "neighbors": [
-      "France",
-      "Spain"
-    ]
+	"neighbors": [
+	  "France",
+	  "Spain"
+	]
   },
   "Armenia": {
-    "neighbors": [
-      "Georgia",
-      "Azerbaijan",
-      "Turkey"
-    ]
+	"neighbors": [
+	  "Georgia",
+	  "Azerbaijan",
+	  "Turkey"
+	]
   },
   "Austria": {
-    "neighbors": [
-      "Germany",
-      "Czechia",
-      "Slovakia",
-      "Hungary",
-      "Slovenia",
-      "Italy",
-      "Switzerland",
-      "Liechtenstein"
-    ]
+	"neighbors": [
+	  "Germany",
+	  "Czechia",
+	  "Slovakia",
+	  "Hungary",
+	  "Slovenia",
+	  "Italy",
+	  "Switzerland",
+	  "Liechtenstein"
+	]
   },
   "Azerbaijan": {
-    "neighbors": [
-      "Russia",
-      "Georgia",
-      "Armenia",
-      "Turkey"
-    ]
+	"neighbors": [
+	  "Russia",
+	  "Georgia",
+	  "Armenia",
+	  "Turkey"
+	]
   },
   "Belarus": {
-    "neighbors": [
-      "Russia",
-      "Ukraine",
-      "Poland",
-      "Lithuania",
-      "Latvia"
-    ]
+	"neighbors": [
+	  "Russia",
+	  "Ukraine",
+	  "Poland",
+	  "Lithuania",
+	  "Latvia"
+	]
   },
   "Belgium": {
-    "neighbors": [
-      "France",
-      "Germany",
-      "Luxembourg",
-      "Netherlands"
-    ]
+	"neighbors": [
+	  "France",
+	  "Germany",
+	  "Luxembourg",
+	  "Netherlands"
+	]
   },
   "Bosnia and Herz_": {
-    "neighbors": [
-      "Croatia",
-      "Serbia",
-      "Montenegro"
-    ]
+	"neighbors": [
+	  "Croatia",
+	  "Serbia",
+	  "Montenegro"
+	]
   },
   "Bulgaria": {
-    "neighbors": [
-      "Romania",
-      "Serbia",
-      "North Macedonia",
-      "Greece",
-      "Turkey"
-    ]
+	"neighbors": [
+	  "Romania",
+	  "Serbia",
+	  "North Macedonia",
+	  "Greece",
+	  "Turkey"
+	]
   },
   "Croatia": {
-    "neighbors": [
-      "Slovenia",
-      "Hungary",
-      "Serbia",
-      "Bosnia and Herz_",
-      "Montenegro"
-    ]
+	"neighbors": [
+	  "Slovenia",
+	  "Hungary",
+	  "Serbia",
+	  "Bosnia and Herz_",
+	  "Montenegro"
+	]
   },
   "Czechia": {
-    "neighbors": [
-      "Germany",
-      "Poland",
-      "Slovakia",
-      "Austria"
-    ]
+	"neighbors": [
+	  "Germany",
+	  "Poland",
+	  "Slovakia",
+	  "Austria"
+	]
   },
   "Denmark": {
-    "neighbors": [
-      "Germany"
-    ]
+	"neighbors": [
+	  "Germany"
+	]
   },
   "Estonia": {
-    "neighbors": [
-      "Latvia",
-      "Russia"
-    ]
+	"neighbors": [
+	  "Latvia",
+	  "Russia"
+	]
   },
   "Finland": {
-    "neighbors": [
-      "Sweden",
-      "Norway",
-      "Russia"
-    ]
+	"neighbors": [
+	  "Sweden",
+	  "Norway",
+	  "Russia"
+	]
   },
   "France": {
-    "neighbors": [
-      "Spain",
-      "Andorra",
-      "Monaco",
-      "Italy",
-      "Switzerland",
-      "Germany",
-      "Luxembourg",
-      "Belgium"
-    ]
+	"neighbors": [
+	  "Spain",
+	  "Andorra",
+	  "Monaco",
+	  "Italy",
+	  "Switzerland",
+	  "Germany",
+	  "Luxembourg",
+	  "Belgium"
+	]
   },
   "Georgia": {
-    "neighbors": [
-      "Russia",
-      "Azerbaijan",
-      "Armenia",
-      "Turkey"
-    ]
+	"neighbors": [
+	  "Russia",
+	  "Azerbaijan",
+	  "Armenia",
+	  "Turkey"
+	]
   },
   "Germany": {
-    "neighbors": [
-      "Denmark",
-      "Poland",
-      "Czechia",
-      "Austria",
-      "Switzerland",
-      "France",
-      "Luxembourg",
-      "Belgium",
-      "Netherlands"
-    ]
+	"neighbors": [
+	  "Denmark",
+	  "Poland",
+	  "Czechia",
+	  "Austria",
+	  "Switzerland",
+	  "France",
+	  "Luxembourg",
+	  "Belgium",
+	  "Netherlands"
+	]
   },
   "Greece": {
-    "neighbors": [
-      "Albania",
-      "North Macedonia",
-      "Bulgaria",
-      "Turkey"
-    ]
+	"neighbors": [
+	  "Albania",
+	  "North Macedonia",
+	  "Bulgaria",
+	  "Turkey"
+	]
   },
   "Hungary": {
-    "neighbors": [
-      "Slovakia",
-      "Ukraine",
-      "Romania",
-      "Serbia",
-      "Croatia",
-      "Slovenia",
-      "Austria"
-    ]
+	"neighbors": [
+	  "Slovakia",
+	  "Ukraine",
+	  "Romania",
+	  "Serbia",
+	  "Croatia",
+	  "Slovenia",
+	  "Austria"
+	]
   },
   "Iceland": {
-    "neighbors": []
+	"neighbors": []
   },
   "Ireland": {
-    "neighbors": [
-      "United Kingdom"
-    ]
+	"neighbors": [
+	  "United Kingdom"
+	]
   },
   "Italy": {
-    "neighbors": [
-      "France",
-      "Switzerland",
-      "Austria",
-      "Slovenia",
-      "San Marino",
-      "Vatican City"
-    ]
+	"neighbors": [
+	  "France",
+	  "Switzerland",
+	  "Austria",
+	  "Slovenia",
+	  "San Marino",
+	  "Vatican City"
+	]
   },
   "Kosovo": {
-    "neighbors": [
-      "Serbia",
-      "Montenegro",
-      "Albania",
-      "North Macedonia"
-    ]
+	"neighbors": [
+	  "Serbia",
+	  "Montenegro",
+	  "Albania",
+	  "North Macedonia"
+	]
   },
   "Latvia": {
-    "neighbors": [
-      "Estonia",
-      "Russia",
-      "Belarus",
-      "Lithuania"
-    ]
+	"neighbors": [
+	  "Estonia",
+	  "Russia",
+	  "Belarus",
+	  "Lithuania"
+	]
   },
   "Liechtenstein": {
-    "neighbors": [
-      "Austria",
-      "Switzerland"
-    ]
+	"neighbors": [
+	  "Austria",
+	  "Switzerland"
+	]
   },
   "Lithuania": {
-    "neighbors": [
-      "Latvia",
-      "Belarus",
-      "Poland",
-      "Russia"
-    ]
+	"neighbors": [
+	  "Latvia",
+	  "Belarus",
+	  "Poland",
+	  "Russia"
+	]
   },
   "Luxembourg": {
-    "neighbors": [
-      "Belgium",
-      "Germany",
-      "France"
-    ]
+	"neighbors": [
+	  "Belgium",
+	  "Germany",
+	  "France"
+	]
   },
   "Malta": {
-    "neighbors": []
+	"neighbors": []
   },
   "Moldova": {
-    "neighbors": [
-      "Romania",
-      "Ukraine"
-    ]
+	"neighbors": [
+	  "Romania",
+	  "Ukraine"
+	]
   },
   "Monaco": {
-    "neighbors": [
-      "France"
-    ]
+	"neighbors": [
+	  "France"
+	]
   },
   "Montenegro": {
-    "neighbors": [
-      "Croatia",
-      "Bosnia and Herz_",
-      "Serbia",
-      "Kosovo",
-      "Albania"
-    ]
+	"neighbors": [
+	  "Croatia",
+	  "Bosnia and Herz_",
+	  "Serbia",
+	  "Kosovo",
+	  "Albania"
+	]
   },
   "Netherlands": {
-    "neighbors": [
-      "Germany",
-      "Belgium"
-    ]
+	"neighbors": [
+	  "Germany",
+	  "Belgium"
+	]
   },
   "North Macedonia": {
-    "neighbors": [
-      "Kosovo",
-      "Serbia",
-      "Bulgaria",
-      "Greece",
-      "Albania"
-    ]
+	"neighbors": [
+	  "Kosovo",
+	  "Serbia",
+	  "Bulgaria",
+	  "Greece",
+	  "Albania"
+	]
   },
   "Norway": {
-    "neighbors": [
-      "Sweden",
-      "Finland",
-      "Russia"
-    ]
+	"neighbors": [
+	  "Sweden",
+	  "Finland",
+	  "Russia"
+	]
   },
   "Poland": {
-    "neighbors": [
-      "Germany",
-      "Czechia",
-      "Slovakia",
-      "Ukraine",
-      "Belarus",
-      "Lithuania",
-      "Russia"
-    ]
+	"neighbors": [
+	  "Germany",
+	  "Czechia",
+	  "Slovakia",
+	  "Ukraine",
+	  "Belarus",
+	  "Lithuania",
+	  "Russia"
+	]
   },
   "Portugal": {
-    "neighbors": [
-      "Spain"
-    ]
+	"neighbors": [
+	  "Spain"
+	]
   },
   "Romania": {
-    "neighbors": [
-      "Hungary",
-      "Serbia",
-      "Bulgaria",
-      "Ukraine",
-      "Moldova"
-    ]
+	"neighbors": [
+	  "Hungary",
+	  "Serbia",
+	  "Bulgaria",
+	  "Ukraine",
+	  "Moldova"
+	]
   },
   "Russia": {
-    "neighbors": [
-      "Norway",
-      "Finland",
-      "Estonia",
-      "Latvia",
-      "Lithuania",
-      "Poland",
-      "Belarus",
-      "Ukraine",
-      "Georgia",
-      "Azerbaijan"
-    ]
+	"neighbors": [
+	  "Norway",
+	  "Finland",
+	  "Estonia",
+	  "Latvia",
+	  "Lithuania",
+	  "Poland",
+	  "Belarus",
+	  "Ukraine",
+	  "Georgia",
+	  "Azerbaijan"
+	]
   },
   "San Marino": {
-    "neighbors": [
-      "Italy"
-    ]
+	"neighbors": [
+	  "Italy"
+	]
   },
   "Serbia": {
-    "neighbors": [
-      "Hungary",
-      "Romania",
-      "Bulgaria",
-      "North Macedonia",
-      "Kosovo",
-      "Montenegro",
-      "Bosnia and Herz_",
-      "Croatia"
-    ]
+	"neighbors": [
+	  "Hungary",
+	  "Romania",
+	  "Bulgaria",
+	  "North Macedonia",
+	  "Kosovo",
+	  "Montenegro",
+	  "Bosnia and Herz_",
+	  "Croatia"
+	]
   },
   "Slovakia": {
-    "neighbors": [
-      "Czechia",
-      "Poland",
-      "Ukraine",
-      "Hungary",
-      "Austria"
-    ]
+	"neighbors": [
+	  "Czechia",
+	  "Poland",
+	  "Ukraine",
+	  "Hungary",
+	  "Austria"
+	]
   },
   "Slovenia": {
-    "neighbors": [
-      "Italy",
-      "Austria",
-      "Hungary",
-      "Croatia"
-    ]
+	"neighbors": [
+	  "Italy",
+	  "Austria",
+	  "Hungary",
+	  "Croatia"
+	]
   },
   "Spain": {
-    "neighbors": [
-      "France",
-      "Andorra",
-      "Portugal"
-    ]
+	"neighbors": [
+	  "France",
+	  "Andorra",
+	  "Portugal"
+	]
   },
   "Sweden": {
-    "neighbors": [
-      "Norway",
-      "Finland"
-    ]
+	"neighbors": [
+	  "Norway",
+	  "Finland"
+	]
   },
   "Switzerland": {
-    "neighbors": [
-      "France",
-      "Germany",
-      "Austria",
-      "Liechtenstein",
-      "Italy"
-    ]
+	"neighbors": [
+	  "France",
+	  "Germany",
+	  "Austria",
+	  "Liechtenstein",
+	  "Italy"
+	]
   },
   "Turkey": {
-    "neighbors": [
-      "Greece",
-      "Bulgaria",
-      "Georgia",
-      "Armenia",
-      "Azerbaijan"
-    ]
+	"neighbors": [
+	  "Greece",
+	  "Bulgaria",
+	  "Georgia",
+	  "Armenia",
+	  "Azerbaijan"
+	]
   },
   "Ukraine": {
-    "neighbors": [
-      "Poland",
-      "Slovakia",
-      "Hungary",
-      "Romania",
-      "Moldova",
-      "Russia",
-      "Belarus"
-    ]
+	"neighbors": [
+	  "Poland",
+	  "Slovakia",
+	  "Hungary",
+	  "Romania",
+	  "Moldova",
+	  "Russia",
+	  "Belarus"
+	]
   },
   "United Kingdom": {
-    "neighbors": [
-      "Ireland",
-      "France",
-      "Belgium",
-      "Netherlands",
-      "Denmark",
-      "Norway"
-    ]
+	"neighbors": [
+	  "Ireland",
+	  "France",
+	  "Belgium",
+	  "Netherlands",
+	  "Denmark",
+	  "Norway"
+	]
   },
   "Vatican City": {
-    "neighbors": [
-      "Italy"
-    ]
+	"neighbors": [
+	  "Italy"
+	]
   }
 }
