@@ -186,6 +186,9 @@ func within_margin_of_error(ans,result,margin):
 
 func victory():
 	GameState.conquered_countries.append(attacked_Country)
+	#remove from attackable countries
+	var index = GameState.attackable_neighbors.find(attacked_Country)
+	GameState.attackable_neighbors.remove_at(index)
 	emit_signal("fight_over")
 
 func loss():
