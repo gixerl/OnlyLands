@@ -1,5 +1,5 @@
 {
-	"Albanien": {
+	"Albania": {
 		"mittel": [
 			{
 				"frage_id": "albanien_1",
@@ -3348,7 +3348,7 @@
 			}
 		]
 	},
-	"Armenien": {
+	"Armenia": {
 		"mittel": [
 			{
 				"frage_id": "armenien_239",
@@ -5085,7 +5085,7 @@
 			}
 		]
 	},
-	"Österreich": {
+	"Austria": {
 		"mittel": [
 			{
 				"frage_id": "österreich_358",
@@ -6952,7 +6952,7 @@
 			}
 		]
 	},
-	"Aserbaidschan": {
+	"Azerbaijan": {
 		"mittel": [
 			{
 				"frage_id": "aserbaidschan_477",
@@ -10398,7 +10398,7 @@
 			}
 		]
 	},
-	"Belgien": {
+	"Belgium": {
 		"mittel": [
 			{
 				"frage_id": "belgien_715",
@@ -12214,7 +12214,7 @@
 			}
 		]
 	},
-	"Bosnien und Herzegowina": {
+	"Bosnia and Herzegovina": {
 		"mittel": [
 			{
 				"frage_id": "bosnien_und_herzegowina_834",
@@ -13932,7 +13932,7 @@
 			}
 		]
 	},
-	"Bulgarien": {
+	"Bulgaria": {
 		"mittel": [
 			{
 				"frage_id": "bulgarien_953",
@@ -15680,7 +15680,7 @@
 			}
 		]
 	},
-	"Kroatien": {
+	"Croatia": {
 		"mittel": [
 			{
 				"frage_id": "kroatien_1072",
@@ -17479,7 +17479,7 @@
 			}
 		]
 	},
-	"Zypern": {
+	"Cyprus": {
 		"mittel": [
 			{
 				"frage_id": "zypern_1191",
@@ -19227,7 +19227,7 @@
 			}
 		]
 	},
-	"Tschechien": {
+	"Czechia": {
 		"mittel": [
 			{
 				"frage_id": "tschechien_1310",
@@ -21094,7 +21094,7 @@
 			}
 		]
 	},
-	"Dänemark": {
+	"Denmark": {
 		"mittel": [
 			{
 				"frage_id": "dänemark_1429",
@@ -22611,7 +22611,7 @@
 			}
 		]
 	},
-	"Estland": {
+	"Estonia": {
 		"mittel": [
 			{
 				"frage_id": "estland_1568",
@@ -24461,7 +24461,7 @@
 			}
 		]
 	},
-	"Finnland": {
+	"Finland": {
 		"mittel": [
 			{
 				"frage_id": "finnland_1687",
@@ -26294,7 +26294,7 @@
 			}
 		]
 	},
-	"Frankreich": {
+	"France": {
 		"mittel": [
 			{
 				"frage_id": "frankreich_1806",
@@ -28127,7 +28127,7 @@
 			}
 		]
 	},
-	"Georgien": {
+	"Georgia": {
 		"mittel": [
 			{
 				"frage_id": "georgien_1925",
@@ -29879,7 +29879,7 @@
 			}
 		]
 	},
-	"Deutschland": {
+	"Germany": {
 		"mittel": [
 			{
 				"frage_id": "deutschland_2044",
@@ -31746,7 +31746,7 @@
 			}
 		]
 	},
-	"Griechenland": {
+	"Greece": {
 		"mittel": [
 			{
 				"frage_id": "griechenland_2163",
@@ -33558,7 +33558,7 @@
 			}
 		]
 	},
-	"Ungarn": {
+	"Hungary": {
 		"mittel": [
 			{
 				"frage_id": "ungarn_2282",
@@ -35049,7 +35049,7 @@
 			}
 		]
 	},
-	"Island": {
+	"Iceland": {
 		"mittel": [
 			{
 				"frage_id": "island_2381",
@@ -36848,7 +36848,7 @@
 			}
 		]
 	},
-	"Irland": {
+	"Ireland": {
 		"mittel": [
 			{
 				"frage_id": "irland_2500",
@@ -38696,7 +38696,7 @@
 			}
 		]
 	},
-	"Italien": {
+	"Italy": {
 		"mittel": [
 			{
 				"frage_id": "italien_2619",
@@ -42168,7 +42168,7 @@
 			}
 		]
 	},
-	"Lettland": {
+	"Latvia": {
 		"mittel": [
 			{
 				"frage_id": "lettland_2857",
@@ -45699,7 +45699,7 @@
 			}
 		]
 	},
-	"Litauen": {
+	"Lithuania": {
 		"mittel": [
 			{
 				"frage_id": "litauen_3095",
@@ -51083,7 +51083,7 @@
 			}
 		]
 	},
-	"Moldau": {
+	"Moldavia": {
 		"mittel": [
 			{
 				"frage_id": "moldau_3452",
@@ -56050,7 +56050,7 @@
 			}
 		]
 	},
-	"den Niederlanden": {
+	"Netherlands": {
 		"mittel": [
 			{
 				"frage_id": "den_niederlanden_3809",
@@ -57896,7 +57896,7 @@
 			}
 		]
 	},
-	"Nordmazedonien": {
+	"North Macedonia": {
 		"mittel": [
 			{
 				"frage_id": "nordmazedonien_3928",
@@ -59641,7 +59641,7 @@
 			}
 		]
 	},
-	"Norwegen": {
+	"Norway": {
 		"mittel": [
 			{
 				"frage_id": "norwegen_4047",
@@ -61436,7 +61436,7 @@
 			}
 		]
 	},
-	"Polen": {
+	"Poland": {
 		"mittel": [
 			{
 				"frage_id": "polen_4166",
@@ -65083,7 +65083,7 @@
 			}
 		]
 	},
-	"Rumänien": {
+	"Romania": {
 		"mittel": [
 			{
 				"frage_id": "rumänien_4404",
@@ -66869,7 +66869,7 @@
 			}
 		]
 	},
-	"Russland": {
+	"Russia": {
 		"mittel": [
 			{
 				"frage_id": "russland_4523",
@@ -70014,7 +70014,7 @@
 			}
 		]
 	},
-	"Serbien": {
+	"Serbia": {
 		"mittel": [
 			{
 				"frage_id": "serbien_4761",
@@ -71800,7 +71800,7 @@
 			}
 		]
 	},
-	"der Slowakei": {
+	"Slovakia": {
 		"mittel": [
 			{
 				"frage_id": "der_slowakei_4880",
@@ -73628,7 +73628,7 @@
 			}
 		]
 	},
-	"Slowenien": {
+	"Slovenia": {
 		"mittel": [
 			{
 				"frage_id": "slowenien_4999",
@@ -75440,7 +75440,7 @@
 			}
 		]
 	},
-	"Spanien": {
+	"Spain": {
 		"mittel": [
 			{
 				"frage_id": "spanien_5118",
@@ -77235,7 +77235,7 @@
 			}
 		]
 	},
-	"Schweden": {
+	"Sweden": {
 		"mittel": [
 			{
 				"frage_id": "schweden_5237",
@@ -79017,7 +79017,7 @@
 			}
 		]
 	},
-	"Schweiz": {
+	"Switzerland": {
 		"mittel": [
 			{
 				"frage_id": "schweiz_5356",
@@ -80846,7 +80846,7 @@
 			}
 		]
 	},
-	"der Türkei": {
+	"Turkey": {
 		"mittel": [
 			{
 				"frage_id": "der_türkei_5475",
@@ -84465,7 +84465,7 @@
 			}
 		]
 	},
-	"dem Vereinigten Königreich": {
+	"United Kingdom": {
 		"mittel": [
 			{
 				"frage_id": "dem_vereinigten_königreich_5713",
@@ -86264,7 +86264,7 @@
 			}
 		]
 	},
-	"Vatikanstadt": {
+	"Vatican City": {
 		"mittel": [
 			{
 				"frage_id": "vatikanstadt_5833",

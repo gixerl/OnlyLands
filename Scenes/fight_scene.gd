@@ -63,7 +63,7 @@ func _process(delta: float) -> void:
 	countdown.text = "%2d" % time_left_to_live()
 	
 
-var attacked_Country = "Deutschland"
+var attacked_Country = "Germany"
 var difficulty = "mittel"
 var Questions_MultipleChoice = []
 var min = 0
