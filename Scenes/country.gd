@@ -13,6 +13,7 @@ func _ready():
 	self.modulate = country_color
 	if GameState.conquered_countries.has(name):
 		self.modulate = Color(0, 1, 0)
+		"""
 		var file_path = "res://Assets/neighbors.json"
 		var file = FileAccess.open(file_path, FileAccess.READ)
 		var json_content = file.get_as_text()
@@ -24,9 +25,23 @@ func _ready():
 			for neib in neighbors[country]["neighbors"]:
 				if !GameState.conquered_countries.has(neib):
 					GameState.attackable_neighbors.append(neib)
-	for node in get_parent().get_children():		
+		"""
+	GameState.update_attackable_neighbors()
+	#await get_tree().process_frame  # 1 Frame warten
+	#update_visuals()
+	for node in get_parent().get_children():
 		if GameState.attackable_neighbors.has(node.name):
 			node.modulate = Color(0, 0, 1)
+			GameState.update_attackable_neighbors()
+
+func update_visuals():
+	for node in get_parent().get_children():
+		if GameState.conquered_countries.has(node.name):
+			node.modulate = Color(0, 1, 0)  # grün
+		elif node.name in GameState.attackable_neighbors:
+			node.modulate = Color(0, 0, 1)  # blau
+		else:
+			node.modulate = node.country_color
 
 func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if event is InputEventMouseButton and event.button_index==MOUSE_BUTTON_LEFT and event.pressed:
@@ -42,6 +57,9 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 					continue					
 				elif GameState.attackable_neighbors.has(node.name):
 					node.modulate = Color(0, 0, 1)
+				elif GameState.conquered_countries.has(node.name):
+					node.modulate = Color(0, 1, 0)
+					GameState.update_attackable_neighbors()
 				else:
 					node.modulate = node.country_color
 		if GameState.country_locked and get_tree().current_scene.name == "Main":
@@ -75,3 +93,4 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 			new_text = new_text.get_as_text()
 			info.visible = true
 			infotext.text = new_text
+	GameState.update_attackable_neighbors()
