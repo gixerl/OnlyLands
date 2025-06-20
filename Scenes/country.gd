@@ -11,6 +11,8 @@ var new_texture
 var new_text
 func _ready():
 	self.modulate = country_color
+	GameState.update_attackable_neighbors()
+	update_visuals()
 	if GameState.conquered_countries.has(name):
 		self.modulate = Color(0, 1, 0)
 		"""
@@ -40,8 +42,6 @@ func update_visuals():
 			node.modulate = Color(0, 1, 0)  # grün
 		elif node.name in GameState.attackable_neighbors:
 			node.modulate = Color(0, 0, 1)  # blau
-		else:
-			node.modulate = node.country_color
 
 func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if event is InputEventMouseButton and event.button_index==MOUSE_BUTTON_LEFT and event.pressed:

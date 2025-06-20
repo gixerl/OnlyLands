@@ -3,5 +3,3 @@ res://Scenes/country.gd
 res://Scenes/selection_screen.tscn
 res://Scenes/fight_scene.tscn
 res://Scenes/Picking_Country.tscn
-res://Scenes/game_state.gd
-res://Scenes/fight_scene.gd
