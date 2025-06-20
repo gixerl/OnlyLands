@@ -1,5 +1,8 @@
 extends Node2D
 
+#signal when fight is over
+signal fight_over
+
 @onready var timer: Timer = $Timer
 @onready var countdown: Label = $Countdown
 @onready var multiple_choice_panel: Panel = $MultipleChoice
@@ -35,7 +38,7 @@ func check_points():
 		points_2.modulate = Color("#00FF00")
 	if(points_self == 3):
 		points_win.modulate = Color("#00FF00")
-		await get_tree().create_timer(3.0).timeout
+		await get_tree().create_timer(0.5).timeout
 		victory()
 		
 	if(points_enemy == 1):
@@ -44,7 +47,7 @@ func check_points():
 		points_4.modulate = Color("#FF0000")
 	if(points_enemy == 3):
 		points_win.modulate = Color("#FF0000")
-		await get_tree().create_timer(3.0).timeout
+		await get_tree().create_timer(0.5).timeout
 		loss()
 
 #Questions		
@@ -182,10 +185,11 @@ func within_margin_of_error(ans,result,margin):
 
 
 func victory():
-	pass
+	GameState.conquered_countries.append(attacked_Country)
+	emit_signal("fight_over")
 
 func loss():
-	pass
+	emit_signal("fight_over")
 
 func player_point():
 	points_self += 1

@@ -10,6 +10,10 @@
 [sub_resource type="GDScript" id="GDScript_w568w"]
 script/source = "extends Node2D
 
+#preload fight scene
+@onready var fight_scene = preload(\"res://Scenes/fight_scene.tscn\")
+var fight_scene_instance = null
+
 @export var show_start: bool = !GameState.country_locked
 
 @onready var options: Panel = $Options
@@ -40,10 +44,30 @@ func _on_attack_pressed() -> void:
 	if GameState.selected_country == GameState.selected_enemy:
 		return
 	# TODO remove
-	#$Click_Start.play()
+	#$Click_Start.play()	
 	GameState.enemy_locked = true
-	get_tree().change_scene_to_file(\"res://Scenes/fight_scene.tscn\")
-
+	#get_tree().change_scene_to_file(\"res://Scenes/fight_scene.tscn\")
+	
+	# Pause the current game scene
+	get_tree().paused = true
+	var stringrand = GameState.selected_enemy
+	# Instantiate the fight scene
+	fight_scene_instance = fight_scene.instantiate()
+	fight_scene_instance.process_mode = Node.PROCESS_MODE_ALWAYS
+	fight_scene_instance.connect(\"fight_over\", _on_fight_scene_over)
+	
+	#change country of questions to attacked country
+	fight_scene_instance.attacked_Country = GameState.selected_enemy
+	
+	# Add the fight scene to the root of the scene tree
+	$\"..\".add_child(fight_scene_instance)
+	
+func _on_fight_scene_over():
+	if(is_instance_valid(fight_scene_instance)):
+		fight_scene_instance.queue_free()
+	fight_scene_instance=null
+	get_tree().paused = false
+	GameState.enemy_locked = false
 
 func _on_settings_pressed() -> void:
 #	TODO: remove comment

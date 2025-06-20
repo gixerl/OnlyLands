@@ -3,3 +3,4 @@ res://Scenes/selection_screen.tscn
 res://Scenes/fight_scene.tscn
 res://Assets/quizfragen.json
 res://Scenes/fight_scene.gd
+res://Scenes/Picking_Country.tscn
