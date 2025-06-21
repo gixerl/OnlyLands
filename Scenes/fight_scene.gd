@@ -53,6 +53,7 @@ func check_points():
 #Questions		
 var Questions = []
 func _ready() -> void:
+	victory()
 	timer.start()
 	new_Questions()
 	set_Question()
@@ -187,10 +188,14 @@ func within_margin_of_error(ans,result,margin):
 func victory():
 	GameState.conquered_countries.append(attacked_Country)
 	#remove from attackable countries
-	var index = GameState.attackable_neighbors.find(attacked_Country)
-	GameState.attackable_neighbors.remove_at(index)
+	while GameState.attackable_neighbors.has(attacked_Country):
+		var i := GameState.attackable_neighbors.find(attacked_Country)
+		GameState.attackable_neighbors.remove_at(i)
 	#reload attacked country
 	get_tree().get_current_scene().get_node("Map").get_node(attacked_Country)._ready()
+	#not working yet- liechtenstein still in attackable neighbours??
+	if GameState.attackable_neighbors.is_empty():
+		print("VICTORY")
 	emit_signal("fight_over")
 
 func loss():

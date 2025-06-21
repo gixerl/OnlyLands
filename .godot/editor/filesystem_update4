@@ -6,3 +6,5 @@ res://Scenes/fight_scene.gd
 res://Scenes/country.gd
 res://Scripts/camera_2d.gd
 res://Assets/Map/countries-attributes.txt
+res://Assets/quizfragen.json
+res://Assets/neighbors.json

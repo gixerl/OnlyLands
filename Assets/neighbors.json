@@ -54,7 +54,8 @@
 	  "France",
 	  "Germany",
 	  "Luxembourg",
-	  "Netherlands"
+	  "Netherlands",
+	"United Kingdom"
 	]
   },
   "Bosnia and Herz_": {
@@ -92,7 +93,10 @@
   },
   "Denmark": {
 	"neighbors": [
-	  "Germany"
+	  "Germany",
+	"United Kingdom",
+	"Sweden",
+	"Norway"
 	]
   },
   "Estonia": {
@@ -111,13 +115,12 @@
   "France": {
 	"neighbors": [
 	  "Spain",
-	  "Andorra",
-	  "Monaco",
 	  "Italy",
 	  "Switzerland",
 	  "Germany",
 	  "Luxembourg",
-	  "Belgium"
+	  "Belgium",
+	"United Kingdom"
 	]
   },
   "Georgia": {
@@ -161,11 +164,15 @@
 	]
   },
   "Iceland": {
-	"neighbors": []
+	"neighbors": [
+		"United Kingdom"
+	]
   },
   "Ireland": {
 	"neighbors": [
-	  "United Kingdom"
+	  "United Kingdom",
+		"Iceland"
+		
 	]
   },
   "Italy": {
@@ -241,7 +248,8 @@
   "Netherlands": {
 	"neighbors": [
 	  "Germany",
-	  "Belgium"
+	  "Belgium",
+	"United Kingdom"
 	]
   },
   "North Macedonia": {
@@ -336,7 +344,6 @@
   "Spain": {
 	"neighbors": [
 	  "France",
-	  "Andorra",
 	  "Portugal"
 	]
   },
