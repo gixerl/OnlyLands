@@ -189,6 +189,8 @@ func victory():
 	#remove from attackable countries
 	var index = GameState.attackable_neighbors.find(attacked_Country)
 	GameState.attackable_neighbors.remove_at(index)
+	#reload attacked country
+	get_tree().get_current_scene().get_node("Map").get_node(attacked_Country)._ready()
 	emit_signal("fight_over")
 
 func loss():

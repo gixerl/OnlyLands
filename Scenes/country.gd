@@ -39,7 +39,9 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 				if node.name == GameState.selected_country and GameState.country_locked:
 					continue
 				elif node.name == GameState.selected_enemy and GameState.enemy_locked:
-					continue					
+					continue	
+				elif GameState.conquered_countries.has(node.name):
+					continue				
 				elif GameState.attackable_neighbors.has(node.name):
 					node.modulate = Color(0, 0, 1)
 				else:
