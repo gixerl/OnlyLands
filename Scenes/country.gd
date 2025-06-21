@@ -12,25 +12,9 @@ var new_text
 func _ready():
 	self.modulate = country_color
 	GameState.update_attackable_neighbors()
-	update_visuals()
+	#update_visuals()
 	if GameState.conquered_countries.has(name):
 		self.modulate = Color(0, 1, 0)
-		"""
-		var file_path = "res://Assets/neighbors.json"
-		var file = FileAccess.open(file_path, FileAccess.READ)
-		var json_content = file.get_as_text()
-		file.close()
-		var json = JSON.new()
-		var result = json.parse(json_content)
-		neighbors = json.get_data()
-		for country in GameState.conquered_countries:
-			for neib in neighbors[country]["neighbors"]:
-				if !GameState.conquered_countries.has(neib):
-					GameState.attackable_neighbors.append(neib)
-		"""
-	GameState.update_attackable_neighbors()
-	#await get_tree().process_frame  # 1 Frame warten
-	#update_visuals()
 	for node in get_parent().get_children():
 		if GameState.attackable_neighbors.has(node.name):
 			node.modulate = Color(0, 0, 1)
