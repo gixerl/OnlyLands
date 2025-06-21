@@ -178,6 +178,6 @@ text = "00"
 [connection signal="pressed" from="MultipleChoice/Button2" to="." method="_on_button_2_pressed"]
 [connection signal="pressed" from="MultipleChoice/Button3" to="." method="_on_button_3_pressed"]
 [connection signal="pressed" from="MultipleChoice/Button4" to="." method="_on_button_4_pressed"]
-[connection signal="text_submitted" from="SchätzFrage/schätz_input_field" to="." method="_on_schätz_input_field_text_submitted"]
 [connection signal="text_submitted" from="SchätzFrage/schätz_input_field" to="." method="_on_line_edit_text_submitted"]
+[connection signal="text_submitted" from="SchätzFrage/schätz_input_field" to="." method="_on_schätz_input_field_text_submitted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
