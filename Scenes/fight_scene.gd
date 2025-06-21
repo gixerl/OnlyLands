@@ -53,7 +53,9 @@ func check_points():
 #Questions		
 var Questions = []
 func _ready() -> void:
+	#only for testing, remove for real game
 	victory()
+	
 	timer.start()
 	new_Questions()
 	set_Question()

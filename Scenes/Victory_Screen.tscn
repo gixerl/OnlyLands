@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfd2buar4l5mr"]
+
+[ext_resource type="Texture2D" uid="uid://c3la5jevsxp2b" path="res://Sprites/victory royale.jpg" id="1_arx2v"]
+
+[node name="Victory Screen" type="Node2D"]
+
+[node name="VictoryRoyale" type="Sprite2D" parent="."]
+position = Vector2(6, 5)
+texture = ExtResource("1_arx2v")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.6, 0.6)
