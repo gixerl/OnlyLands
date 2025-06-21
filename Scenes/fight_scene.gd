@@ -195,7 +195,7 @@ func victory():
 		GameState.attackable_neighbors.remove_at(i)
 	#reload attacked country
 	get_tree().get_current_scene().get_node("Map").get_node(attacked_Country)._ready()
-	#not working yet- liechtenstein still in attackable neighbours??
+	#working
 	if GameState.attackable_neighbors.is_empty():
 		print("VICTORY")
 	emit_signal("fight_over")
