@@ -41,7 +41,7 @@ func _on_start_pressed() -> void:
 	
 
 func _on_attack_pressed() -> void:
-	if GameState.selected_country == GameState.selected_enemy:
+	if GameState.selected_country == GameState.selected_enemy or GameState.selected_enemy not in GameState.attackable_neighbors:
 		return
 	# TODO remove
 	#$Click_Start.play()	

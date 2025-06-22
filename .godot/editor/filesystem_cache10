@@ -1,14 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750472599
+::res://::1750598086
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::5677815808059208094::1750083589::0::1::::<><><>0<>0<><>::
 Europe Map 2D.jpg::CompressedTexture2D/CompressedTexture2D::5164030814941118270::1750083589::1750251751::1::::<><><>0<>0<>f5a691a571a9d205f8a13738fa7813d4<>res://.godot/imported/Europe Map 2D.jpg-6be042816b913193a83b11ec4a1c5551.ctex::
+export_presets.cfg::TextFile/TextFile::-1::1750503773::0::1::::<><><>0<>0<><>::
 fight_scene.gd::GDScript/GDScript::4491679482125612630::1750429362::0::1::::<>Node2D<><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::2909781261834108794::1750083589::1750251751::1::::<><><>0<>0<>df83e5f638b040ed3281fbf7a9ffb5dd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 KnownProblems.txt::TextFile/TextFile::-1::1750429362::0::1::::<><><>0<>0<><>::
 README.md::TextFile/TextFile::-1::1750083589::0::1::::<><><>0<>0<><>::
-::res://Assets/::1750472526
-neighbors.json::JSON::-1::1750472526::0::1::::<><><>0<>0<><>::
-quizfragen.json::JSON::-1::1750470102::0::1::::<><><>0<>0<><>::
+::res://Assets/::1750472753
+neighbors.json::JSON/JSON::-1::1750472753::0::1::::<><><>0<>0<><>::
+quizfragen.json::JSON/JSON::-1::1750470102::0::1::::<><><>0<>0<><>::
 ::res://Assets/Characters/::1750429362
 Albania.png::CompressedTexture2D/CompressedTexture2D::1301047487920695111::1750083589::1750251752::1::::<><><>0<>0<>fcf38f42e27e82ee465106aafa1d328f<>res://.godot/imported/Albania.png-74194f9f4a378110a1da7c5fba473986.ctex::
 Andorra.png::CompressedTexture2D/CompressedTexture2D::6036297696133629401::1750083589::1750251752::1::::<><><>0<>0<>501de8147f27982ac08b135e17f2e098<>res://.godot/imported/Andorra.png-bc6fc9b38f0c99a1545392cf1cfeea42.ctex::
@@ -107,32 +108,32 @@ United Kingdom.txt::TextFile/TextFile::-1::1750083589::0::1::::<><><>0<>0<><>::
 Vatican City.txt::TextFile/TextFile::-1::1750083589::0::1::::<><><>0<>0<><>::
 ::res://Assets/Map/::1750468418
 attributes_index_finder.txt::TextFile/TextFile::-1::1750083589::0::1::::<><><>0<>0<><>::
-countries-attributes.txt::TextFile::-1::1750468418::0::1::::<><><>0<>0<><>::
+countries-attributes.txt::TextFile/TextFile::-1::1750468418::0::1::::<><><>0<>0<><>::
 countries-nodes.txt::TextFile/TextFile::-1::1750083589::0::1::::<><><>0<>0<><>::
 ::res://Assets/Soundtracks/::1750251750
 04. Home Music Part 1.mp3::AudioStreamMP3/AudioStreamMP3::2193556917540241322::1750083589::1750251750::1::::<><><>0<>0<>674de52b21574b7c4142435fbc1871a7<>res://.godot/imported/04. Home Music Part 1.mp3-7c3723fa2f8561746dcb939c369daebe.mp3str::
 clash_of_clan_start_up_soundmp3converter.mp3::AudioStreamMP3/AudioStreamMP3::8273464699478959773::1750083589::1750251750::1::::<><><>0<>0<>dc4e918e80a30584fc53528ddf61cde9<>res://.godot/imported/clash_of_clan_start_up_soundmp3converter.mp3-a1a766fe2f637e71b0e113a5a846a32f.mp3str::
 Select.mp3::AudioStreamMP3/AudioStreamMP3::2289738341525530203::1750083589::1750251750::1::::<><><>0<>0<>7774ab2b1c5e566934afff3b6fa68f88<>res://.godot/imported/Select.mp3-be05e93b40be0355c2affa518aac7d0f.mp3str::
-::res://Scenes/::1750472526
+::res://Scenes/::1750597983
 audio_control.gd::GDScript/GDScript::4940597074497891612::1750083589::0::1::::<>HSlider<><>0<>0<><>::
 audio_control_vfx.gd::GDScript/GDScript::4143422361732286457::1750083589::0::1::::<>HSlider<><>0<>0<><>::
-country.gd::GDScript::1804680275187150878::1750468532::0::1::::<>Area2D<><>0<>0<><>::
+country.gd::GDScript/GDScript::1804680275187150878::1750468532::0::1::::<>Area2D<><>0<>0<><>::
 country.tscn::PackedScene/PackedScene::8018436074180929022::1750273892::0::1::::<><><>0<>0<><>::uid://0yg25ptiixko::::res://Scenes/country.gd
-fight_scene.gd::GDScript::2185920026556184215::1750472526::0::1::::<>Node2D<><>0<>0<><>::
-fight_scene.tscn::PackedScene::1617938517844684848::1750472526::0::1::::<><><>0<>0<><>::uid://6e41vxr15fat::::res://Scenes/fight_scene.gd
+fight_scene.gd::GDScript::2185920026556184215::1750597982::0::1::::<>Node2D<><>0<>0<><>::
+fight_scene.tscn::PackedScene::1617938517844684848::1750597983::0::1::::<><><>0<>0<><>::uid://6e41vxr15fat::::res://Scenes/fight_scene.gd
 fullscreen_controler.gd::GDScript/GDScript::7098059369523854575::1750083589::0::1::::<>CheckButton<><>0<>0<><>::
 game_state.gd::GDScript/GDScript::8065628416353980945::1750429362::0::1::::<>Node<><>0<>0<><>::
 main_menu.gd::GDScript/GDScript::2921387773729393711::1750429362::0::1::::<>Node2D<><>0<>0<><>::
-main_menu.tscn::PackedScene::2145404949296852339::1750472419::0::1::::<><><>0<>0<><>::uid://cv50v0enxc5r4::::res://Scenes/map.tscn<>uid://bhve3hi8j3vrj::::res://Scenes/main_menu.gd<>uid://wbfrm5ow7s1w::::res://Scenes/Picking_Country.tscn
+main_menu.tscn::PackedScene::2145404949296852339::1750597983::0::1::::<><><>0<>0<><>::uid://cv50v0enxc5r4::::res://Scenes/map.tscn<>uid://bhve3hi8j3vrj::::res://Scenes/main_menu.gd<>uid://wbfrm5ow7s1w::::res://Scenes/Picking_Country.tscn
 map.gd::GDScript/GDScript::9024596975645190727::1750083589::0::1::::<>Node2D<><>0<>0<><>::
 map.tscn::PackedScene/PackedScene::6310295162782321271::1750429362::0::1::::<><><>0<>0<><>::uid://d1tt18q0q3xg6::::res://Scenes/map.gd<>uid://cibvewujevwnr::::res://Scripts/camera_2d.gd<>uid://dmigqab1uvd1w::::res://Scenes/country.tscn
-Picking_Country.tscn::PackedScene::1546553558542096754::1750472419::0::1::::<><><>0<>0<><>::uid://ccni6aiyxbdeq::::res://Scenes/audio_control.gd<>uid://6ittdu37xfgs::::res://Assets/Soundtracks/04. Home Music Part 1.mp3<>uid://c8emaa5r2nrwh::::res://Scenes/fullscreen_controler.gd<>uid://b0bdtcpbfx6en::::res://Scenes/audio_control_vfx.gd<>uid://dp4y0wt6kose4::::res://Assets/Soundtracks/clash_of_clan_start_up_soundmp3converter.mp3<>uid://7vfwkjps423p::::res://Assets/Soundtracks/Select.mp3
-selection_screen.tscn::PackedScene::5602345601844824172::1750472419::0::1::::<><><>0<>0<><>::uid://cv50v0enxc5r4::::res://Scenes/map.tscn<>uid://bhve3hi8j3vrj::::res://Scenes/main_menu.gd<>uid://wbfrm5ow7s1w::::res://Scenes/Picking_Country.tscn
-Victory_Screen.tscn::PackedScene::2745200231022668009::1750472419::0::1::::<><><>0<>0<><>::uid://c3la5jevsxp2b::::res://Sprites/victory royale.jpg
+Picking_Country.tscn::PackedScene::1546553558542096754::1750597983::0::1::::<><><>0<>0<><>::uid://ccni6aiyxbdeq::::res://Scenes/audio_control.gd<>uid://6ittdu37xfgs::::res://Assets/Soundtracks/04. Home Music Part 1.mp3<>uid://c8emaa5r2nrwh::::res://Scenes/fullscreen_controler.gd<>uid://b0bdtcpbfx6en::::res://Scenes/audio_control_vfx.gd<>uid://dp4y0wt6kose4::::res://Assets/Soundtracks/clash_of_clan_start_up_soundmp3converter.mp3<>uid://7vfwkjps423p::::res://Assets/Soundtracks/Select.mp3
+selection_screen.tscn::PackedScene::5602345601844824172::1750597983::0::1::::<><><>0<>0<><>::uid://cv50v0enxc5r4::::res://Scenes/map.tscn<>uid://bhve3hi8j3vrj::::res://Scenes/main_menu.gd<>uid://wbfrm5ow7s1w::::res://Scenes/Picking_Country.tscn
+Victory_Screen.tscn::PackedScene/PackedScene::2745200231022668009::1750472419::0::1::::<><><>0<>0<><>::uid://c3la5jevsxp2b::::res://Sprites/victory royale.jpg
 ::res://Scripts/::1750468418
-camera_2d.gd::GDScript::5337699881093143211::1750468418::0::1::::<>Camera2D<><>0<>0<><>::
-::res://Sprites/::1750472557
+camera_2d.gd::GDScript/GDScript::5337699881093143211::1750468418::0::1::::<>Camera2D<><>0<>0<><>::
+::res://Sprites/::1750472600
 png-clipart-settings-gear-icon-gear-configuration-thumbnail.png::CompressedTexture2D/CompressedTexture2D::3572069448407623348::1750083589::1750251751::1::::<><><>0<>0<>3952b90a426e7a4ea3678219d04df92c<>res://.godot/imported/png-clipart-settings-gear-icon-gear-configuration-thumbnail.png-b72655e0899ae601d465330e3833e26c.ctex::
 pngtree-settings-icon-image_1197585.jpg::CompressedTexture2D/CompressedTexture2D::6763165452452609122::1750083589::1750251751::1::::<><><>0<>0<>40ba3d8b127d75eed5b3cbece53b00b7<>res://.godot/imported/pngtree-settings-icon-image_1197585.jpg-2bc3e90f0382345e18ea88f41e56b49d.ctex::
 settings-white-outline-icon-download-png-701751694974641xsiiydfokh.png::CompressedTexture2D/CompressedTexture2D::4646330710776944288::1750083589::1750251751::1::::<><><>0<>0<>3848c631a0eb9f62526fc676d239666a<>res://.godot/imported/settings-white-outline-icon-download-png-701751694974641xsiiydfokh.png-8d89a26f3f632570246aa2ba1ce797b7.ctex::
-victory royale.jpg::CompressedTexture2D::6760891198231402443::1750471881::1750472600::1::::<><><>0<>0<>3ead95d0f51dfc2eb36df1af3367f6ae<>res://.godot/imported/victory royale.jpg-84c2b500aa4165bea842613a2688c032.ctex::
+victory royale.jpg::CompressedTexture2D/CompressedTexture2D::6760891198231402443::1750471881::1750472600::1::::<><><>0<>0<>3ead95d0f51dfc2eb36df1af3367f6ae<>res://.godot/imported/victory royale.jpg-84c2b500aa4165bea842613a2688c032.ctex::

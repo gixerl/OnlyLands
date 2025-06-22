@@ -3,6 +3,7 @@ extends Node2D
 #signal when fight is over
 signal fight_over
 
+
 @onready var timer: Timer = $Timer
 @onready var countdown: Label = $Countdown
 @onready var multiple_choice_panel: Panel = $MultipleChoice
@@ -38,7 +39,11 @@ func check_points():
 		points_2.modulate = Color("#00FF00")
 	if(points_self == 3):
 		points_win.modulate = Color("#00FF00")
-		await get_tree().create_timer(0.5).timeout
+		get_tree().paused = true
+		# 2. Create a timer. SceneTreeTimers run even when the tree is paused by default
+		var timer = get_tree().create_timer(0.5)
+		await timer.timeout
+		get_tree().paused = false
 		victory()
 		
 	if(points_enemy == 1):
@@ -47,14 +52,18 @@ func check_points():
 		points_4.modulate = Color("#FF0000")
 	if(points_enemy == 3):
 		points_win.modulate = Color("#FF0000")
-		await get_tree().create_timer(0.5).timeout
+		get_tree().paused = true
+		# 2. Create a timer. SceneTreeTimers run even when the tree is paused by default
+		var timer = get_tree().create_timer(0.5)
+		await timer.timeout
+		get_tree().paused = false
 		loss()
 
 #Questions		
 var Questions = []
 func _ready() -> void:
 	#only for testing, remove for real game
-	victory()
+	#victory()
 	
 	timer.start()
 	new_Questions()
@@ -70,7 +79,7 @@ func _process(delta: float) -> void:
 	
 
 var attacked_Country = "Germany"
-var difficulty = "mittel"
+var difficulty = "einfach"
 var Questions_MultipleChoice = []
 var min = 0
 var max

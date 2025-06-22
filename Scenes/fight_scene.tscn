@@ -163,7 +163,7 @@ offset_bottom = 52.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_x4t7m")
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 15.0
+wait_time = 30.0
 one_shot = true
 
 [node name="Countdown" type="Label" parent="."]
