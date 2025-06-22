@@ -3,6 +3,7 @@ extends Node2D
 #signal when fight is over
 signal fight_over
 
+@onready var victory_screen: CanvasLayer = $Victory
 
 @onready var timer: Timer = $Timer
 @onready var countdown: Label = $Countdown
@@ -79,7 +80,7 @@ func _process(delta: float) -> void:
 	
 
 var attacked_Country = "Germany"
-var difficulty = "einfach"
+var difficulty = "mittel"
 var Questions_MultipleChoice = []
 var min = 0
 var max
@@ -87,6 +88,7 @@ var Result
 var Margin
 
 func set_Question():
+	victory()
 	check_points()
 	timer.stop()
 	timer.start()
@@ -254,7 +256,10 @@ func victory():
 	#working
 	if GameState.attackable_neighbors.is_empty():
 		print("VICTORY")
+		victory_screen.visible = true
+		return
 	emit_signal("fight_over")
+	
 
 func loss():
 	emit_signal("fight_over")
@@ -270,3 +275,7 @@ func enemy_point():
 
 func _on_timer_timeout() -> void:
 	enemy_point()
+
+
+func _on_return_pressed() -> void:
+	get_tree().quit()

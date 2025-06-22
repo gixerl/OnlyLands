@@ -1,6 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://xb0hf6l0mxnk"]
+[gd_scene load_steps=13 format=3 uid="uid://xb0hf6l0mxnk"]
 
 [ext_resource type="Script" uid="uid://6e41vxr15fat" path="res://Scenes/fight_scene.gd" id="1_l3x7y"]
+[ext_resource type="Texture2D" uid="uid://c3la5jevsxp2b" path="res://Sprites/victory royale.jpg" id="2_x4t7m"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x4t7m"]
 
@@ -24,6 +25,22 @@ corner_radius_bottom_left = 15
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_78axv"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_11mp3"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wfhf3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1a0q2"]
+bg_color = Color(0, 0.431373, 0, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j70gj"]
+bg_color = Color(0, 0.631373, 0, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
 
 [node name="Fight_Scene" type="Node2D"]
 script = ExtResource("1_l3x7y")
@@ -174,6 +191,25 @@ offset_bottom = 225.0
 theme_override_font_sizes/font_size = 30
 text = "00"
 
+[node name="Victory" type="CanvasLayer" parent="."]
+
+[node name="Victory screen" type="Sprite2D" parent="Victory"]
+position = Vector2(577.4, 325.6)
+scale = Vector2(0.60375, 0.604444)
+texture = ExtResource("2_x4t7m")
+
+[node name="Return" type="Button" parent="Victory"]
+offset_left = 422.0
+offset_top = 509.0
+offset_right = 793.0
+offset_bottom = 618.0
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxEmpty_wfhf3")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1a0q2")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_j70gj")
+theme_override_styles/normal = SubResource("StyleBoxFlat_j70gj")
+text = "Exit"
+
 [connection signal="pressed" from="MultipleChoice/Button" to="." method="_on_Button1_pressed"]
 [connection signal="pressed" from="MultipleChoice/Button2" to="." method="_on_button_2_pressed"]
 [connection signal="pressed" from="MultipleChoice/Button3" to="." method="_on_button_3_pressed"]
@@ -181,3 +217,4 @@ text = "00"
 [connection signal="text_submitted" from="SchätzFrage/schätz_input_field" to="." method="_on_schätz_input_field_text_submitted"]
 [connection signal="text_submitted" from="SchätzFrage/schätz_input_field" to="." method="_on_line_edit_text_submitted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="pressed" from="Victory/Return" to="." method="_on_return_pressed"]

@@ -1,6 +1,7 @@
 extends Node2D
 
 @onready var text_edit: TextEdit = $CanvasLayer/Informationen
+@onready var victory: CanvasLayer = $Victory
 
 func _ready():
 	if get_tree().current_scene.name == "Selection_screen":
@@ -16,3 +17,7 @@ func _on_button_pressed() -> void:
 		text_edit.visible = false
 	else:
 		text_edit.visible = true
+
+
+func _on_return_pressed() -> void:
+	get_tree().quit()
