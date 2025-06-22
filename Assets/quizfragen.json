@@ -27844,7 +27844,7 @@
 				"frage_id": "frankreich_1908",
 				"land": "Frankreich",
 				"frage": "Für wie viele verschiedene Käsesorten ist Frankreich ungefähr bekannt?",
-				"antwort": "1000",
+				"antwort": 1000,
 				"klassifizierung": {
 					"schwierigkeit": "einfach",
 					"typ": "Schätzfrage",
@@ -42152,21 +42152,7 @@
 				]
 			}
 		],
-		"schwer": [
-			{
-				"frage_id": "kosovo_2855",
-				"land": "Kosovo",
-				"frage": "Wie viel Prozent des Bruttoinlandsprodukts (BIP) des Kosovo machen Überweisungen der Diaspora (Geldüberweisungen aus dem Ausland) ungefähr aus?",
-				"antwort": "15%",
-				"klassifizierung": {
-					"schwierigkeit": "schwer",
-					"typ": "Schätzfrage",
-					"genre": "Wirtschaft & Finanzen",
-					"margin_of_error": "5%"
-				},
-				"optionen": []
-			}
-		]
+		"schwer": []
 	},
 	"Latvia": {
 		"mittel": [
@@ -43807,19 +43793,6 @@
 					"Krone",
 					"Litas"
 				]
-			},
-			{
-				"frage_id": "lettland_2962",
-				"land": "Lettland",
-				"frage": "Riga ist die größte Stadt in den Baltischen Staaten. Wie viele Einwohner hat die Stadt Riga ungefähr?",
-				"antwort": "ca. 620.000",
-				"klassifizierung": {
-					"schwierigkeit": "einfach",
-					"typ": "Schätzfrage",
-					"genre": "Demografie & Statistik",
-					"margin_of_error": 50.0
-				},
-				"optionen": []
 			},
 			{
 				"frage_id": "lettland_2963",
@@ -61122,7 +61095,7 @@
 					"schwierigkeit": "mittel",
 					"typ": "Schätzfrage",
 					"genre": "Wirtschaft & Finanzen",
-					"margin_of_error": "10%"
+					"margin_of_error": "15%"
 				},
 				"optionen": []
 			},
@@ -75228,7 +75201,7 @@
 					"schwierigkeit": "mittel",
 					"typ": "Schätzfrage",
 					"genre": "Demografie & Statistik",
-					"margin_of_error": "5%"
+					"margin_of_error": "15%"
 				},
 				"optionen": []
 			}
@@ -80556,19 +80529,6 @@
 					"Sustenpass",
 					"Furkapass"
 				]
-			},
-			{
-				"frage_id": "schweiz_5472",
-				"land": "Schweiz",
-				"frage": "Wie hoch ist die durchschnittliche Pünktlichkeit der Schweizer Bundesbahnen (SBB) in Prozent, wenn man Züge berücksichtigt, die maximal 3 Minuten Verspätung haben?",
-				"antwort": "ca. 90",
-				"klassifizierung": {
-					"schwierigkeit": "mittel",
-					"typ": "Schätzfrage",
-					"genre": "Kultur & Gesellschaft",
-					"margin_of_error": "3%"
-				},
-				"optionen": []
 			}
 		],
 		"einfach": [

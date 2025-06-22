@@ -2,6 +2,5 @@ res://Scenes/main_menu.tscn
 res://Scenes/selection_screen.tscn
 res://Scenes/fight_scene.tscn
 res://Scenes/Picking_Country.tscn
-res://Assets/quizfragen.json
-res://Scenes/fight_scene.gd
 res://Scenes/Victory_Screen.tscn
+res://Assets/quizfragen.json

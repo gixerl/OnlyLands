@@ -127,31 +127,78 @@ func set_new_MultipleChoice(MultipleChoice_question):
 
 
 func _on_Button1_pressed() -> void:
+	if GameState.answer_locked or points_self == 3 or points_enemy == 3:
+		return
 	if(button.text == str(Result)):
-		
 		player_point()
 	else:
+		button.modulate = Color(1, 0, 0)
+		GameState.answer_locked = true
+		for element in [button, button_2, button_3, button_4]:
+			var waiting_time = min(timer.time_left, 4)
+			if element.text == str(Result):
+				element.modulate = Color(0, 1, 0)
+				await get_tree().create_timer(waiting_time).timeout
+				element.modulate = Color(1, 1, 1)
+		GameState.answer_locked = false
+		button.modulate = Color(1, 1, 1)
 		enemy_point()
 
 
 func _on_button_2_pressed() -> void:
+	if GameState.answer_locked or points_self == 3 or points_enemy == 3:
+		return
 	if(button_2.text == str(Result)):	
 		player_point()
 	else:
+		button_2.modulate = Color(1, 0, 0)
+		GameState.answer_locked = true
+		for element in [button, button_2, button_3, button_4]:
+			var waiting_time = min(timer.time_left, 4)
+			if element.text == str(Result):
+				element.modulate = Color(0, 1, 0)
+				await get_tree().create_timer(waiting_time).timeout
+				element.modulate = Color(1, 1, 1)
+		GameState.answer_locked = false
+		button_2.modulate = Color(1, 1, 1)
 		enemy_point()
 
 
 func _on_button_3_pressed() -> void:
+	if GameState.answer_locked or points_self == 3 or points_enemy == 3:
+		return
 	if(button_3.text == str(Result)):
 		player_point()
 	else:
+		button_3.modulate = Color(1, 0, 0)		
+		GameState.answer_locked = true
+		for element in [button, button_2, button_3, button_4]:
+			var waiting_time = min(timer.time_left, 4)
+			if element.text == str(Result):
+				element.modulate = Color(0, 1, 0)
+				await get_tree().create_timer(waiting_time).timeout
+				element.modulate = Color(1, 1, 1)
+		GameState.answer_locked = false
+		button_3.modulate = Color(1, 1, 1)
 		enemy_point()
 
 
 func _on_button_4_pressed() -> void:
+	if GameState.answer_locked or points_self == 3 or points_enemy == 3:
+		return
 	if(button_4.text == str(Result)):
 		player_point()
 	else:
+		button_4.modulate = Color(1, 0, 0)
+		GameState.answer_locked = true
+		for element in [button, button_2, button_3, button_4]:
+			var waiting_time = min(timer.time_left, 4)
+			if element.text == str(Result):
+				element.modulate = Color(0, 1, 0)
+				await get_tree().create_timer(waiting_time).timeout
+				element.modulate = Color(1, 1, 1)
+		GameState.answer_locked = false
+		button_4.modulate = Color(1, 1, 1)
 		enemy_point()
 
 var Questions_Schätzfrage = []
@@ -217,8 +264,8 @@ func player_point():
 	set_Question()
 	
 func enemy_point():
-		points_enemy += 1
-		set_Question()
+	points_enemy += 1
+	set_Question()
 		
 
 func _on_timer_timeout() -> void:
