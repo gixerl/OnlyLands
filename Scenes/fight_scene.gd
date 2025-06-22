@@ -88,7 +88,6 @@ var Result
 var Margin
 
 func set_Question():
-	victory()
 	check_points()
 	timer.stop()
 	timer.start()

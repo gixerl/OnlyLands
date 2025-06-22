@@ -1,8 +1,4 @@
 res://Scenes/main_menu.tscn
 res://Scenes/selection_screen.tscn
 res://Scenes/fight_scene.tscn
-res://Scenes/Picking_Country.tscn
-res://Scenes/Victory_Screen.tscn
 res://Scenes/fight_scene.gd
-res://Scenes/main_menu.gd
-res://Scenes/map.tscn
