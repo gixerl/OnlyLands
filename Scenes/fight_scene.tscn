@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://xb0hf6l0mxnk"]
 
 [ext_resource type="Script" uid="uid://6e41vxr15fat" path="res://Scenes/fight_scene.gd" id="1_l3x7y"]
-[ext_resource type="Texture2D" uid="uid://c3la5jevsxp2b" path="res://Sprites/victory royale.jpg" id="2_x4t7m"]
+[ext_resource type="Texture2D" uid="uid://c25b2ekdyghwc" path="res://Sprites/victory royale.png" id="2_x4t7m"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x4t7m"]
 
@@ -195,8 +195,8 @@ text = "00"
 visible = false
 
 [node name="Victory screen" type="Sprite2D" parent="Victory"]
-position = Vector2(577.4, 325.6)
-scale = Vector2(0.60375, 0.604444)
+position = Vector2(578.5, 326.5)
+scale = Vector2(0.758464, 0.645508)
 texture = ExtResource("2_x4t7m")
 
 [node name="Return" type="Button" parent="Victory"]
