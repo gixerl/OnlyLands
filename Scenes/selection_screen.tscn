@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://cv50v0enxc5r4" path="res://Scenes/map.tscn" id="1_w3yxc"]
 [ext_resource type="Script" uid="uid://bhve3hi8j3vrj" path="res://Scenes/main_menu.gd" id="1_ycl7u"]
 [ext_resource type="PackedScene" uid="uid://wbfrm5ow7s1w" path="res://Scenes/Picking_Country.tscn" id="4_5x0nw"]
-[ext_resource type="Texture2D" uid="uid://c3la5jevsxp2b" path="res://Sprites/victory royale.jpg" id="4_j2a3b"]
+[ext_resource type="AudioStream" uid="uid://bsrifvcidk8bk" path="res://Assets/Soundtracks/Campanella.mp3" id="4_j2a3b"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j2a3b"]
 
@@ -45,7 +45,6 @@ visible = false
 [node name="Victory screen" type="Sprite2D" parent="Victory"]
 position = Vector2(577.4, 325.6)
 scale = Vector2(0.60375, 0.604444)
-texture = ExtResource("4_j2a3b")
 
 [node name="Return" type="Button" parent="Victory"]
 offset_left = 422.0
@@ -58,5 +57,11 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_5x0nw")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_j2a3b")
 theme_override_styles/normal = SubResource("StyleBoxFlat_j2a3b")
 text = "Exit"
+
+[node name="Soundtrack" type="AudioStreamPlayer2D" parent="."]
+visible = false
+stream = ExtResource("4_j2a3b")
+autoplay = true
+bus = &"Music"
 
 [connection signal="pressed" from="Victory/Return" to="." method="_on_return_pressed"]

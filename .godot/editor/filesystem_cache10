@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750690016
+::res://::1750693108
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::5677815808059208094::1750083589::0::1::::<><><>0<>0<><>::
-export_presets.cfg::TextFile/TextFile::-1::1750608616::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile/TextFile::-1::1750693108::0::1::::<><><>0<>0<><>::
 fight_scene.gd::GDScript/GDScript::4491679482125612630::1750429362::0::1::::<>Node2D<><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::2909781261834108794::1750083589::1750251751::1::::<><><>0<>0<>df83e5f638b040ed3281fbf7a9ffb5dd<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 KnownProblems.txt::TextFile/TextFile::-1::1750429362::0::1::::<><><>0<>0<><>::
@@ -9,10 +9,11 @@ README.md::TextFile/TextFile::-1::1750083589::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1750689185
 neighbors.json::JSON/JSON::-1::1750472753::0::1::::<><><>0<>0<><>::
 quizfragen.json::JSON::-1::1750689185::0::1::::<><><>0<>0<><>::
-::res://Assets/Characters/::1750429362
+::res://Assets/Characters/::1750694440
 Albania.png::CompressedTexture2D/CompressedTexture2D::1301047487920695111::1750083589::1750251752::1::::<><><>0<>0<>fcf38f42e27e82ee465106aafa1d328f<>res://.godot/imported/Albania.png-74194f9f4a378110a1da7c5fba473986.ctex::
 Andorra.png::CompressedTexture2D/CompressedTexture2D::6036297696133629401::1750083589::1750251752::1::::<><><>0<>0<>501de8147f27982ac08b135e17f2e098<>res://.godot/imported/Andorra.png-bc6fc9b38f0c99a1545392cf1cfeea42.ctex::
 Armenia.png::CompressedTexture2D/CompressedTexture2D::8362385072556724784::1750083589::1750251752::1::::<><><>0<>0<>6512521307b514702e3a9c6ddba21a40<>res://.godot/imported/Armenia.png-19883e6ca12c29b5c3ad2873971c32d7.ctex::
+Austria.png::CompressedTexture2D::5616254738296996365::1750694413::1750694427::1::::<><><>0<>0<>18c298a9a769f33dbd0d73343d36e788<>res://.godot/imported/Austria.png-2d23cd0157b460ea7773b06d8dcbc4b2.ctex::
 Azerbaijan.png::CompressedTexture2D/CompressedTexture2D::7573416046857219493::1750083589::1750251752::1::::<><><>0<>0<>cd4b6119a70a2ad4a5682a2508867d80<>res://.godot/imported/Azerbaijan.png-c4f2edd2330eb67bc975990a6cb03ac3.ctex::
 Belarus.png::CompressedTexture2D/CompressedTexture2D::5494582658883013187::1750083589::1750251752::1::::<><><>0<>0<>527844978bbdee0ee0a61725bfeb364c<>res://.godot/imported/Belarus.png-3f11f655cf96808c0f9dc0c2cc687a06.ctex::
 Belgium.png::CompressedTexture2D/CompressedTexture2D::454469186603827388::1750083589::1750251752::1::::<><><>0<>0<>aaf8833a92ef673315a73fc41de42dc0<>res://.godot/imported/Belgium.png-003effc66a256a88af08f4a9518aff88.ctex::
@@ -27,6 +28,7 @@ France.png::CompressedTexture2D/CompressedTexture2D::3518805801529179792::175008
 Georgia.png::CompressedTexture2D/CompressedTexture2D::1285114178747966128::1750083589::1750251753::1::::<><><>0<>0<>d24fa75c9651bf6fa18b606b558120cd<>res://.godot/imported/Georgia.png-28bd162d7688ad8e8ec2577d6a882d82.ctex::
 Germany.png::CompressedTexture2D/CompressedTexture2D::1337628450546942361::1750083589::1750251753::1::::<><><>0<>0<>b57e1329aae8b313d563ab45b780fa61<>res://.godot/imported/Germany.png-d7605deb3c7f9e9c8f898de745b45d94.ctex::
 Greece.png::CompressedTexture2D/CompressedTexture2D::1216523926362820329::1750083589::1750251753::1::::<><><>0<>0<>ea1e596ccbb0095f9cd865c37c8d3a31<>res://.godot/imported/Greece.png-7458216dbd342a3789718f12fedc4eda.ctex::
+Hungary.png::CompressedTexture2D::82687585573222321::1750694435::1750694444::1::::<><><>0<>0<>9bb097aac77111a0bd762ddc6f91ab80<>res://.godot/imported/Hungary.png-97b9cafb51970792195de2a4f8ab2766.ctex::
 Iceland.png::CompressedTexture2D/CompressedTexture2D::8064071651010538313::1750083589::1750251754::1::::<><><>0<>0<>561792f53747c6fdf28b923e5d4c78e8<>res://.godot/imported/Iceland.png-f44b95cdad4336ea4aaa08c8afb1a3ae.ctex::
 Ireland.png::CompressedTexture2D/CompressedTexture2D::3912559959972228459::1750083589::1750251754::1::::<><><>0<>0<>ccd1149abade217d40577df38a54e373<>res://.godot/imported/Ireland.png-f719f2ae04916ce454ca792d5719f195.ctex::
 Italy.png::CompressedTexture2D/CompressedTexture2D::1097213846680444606::1750083589::1750251754::1::::<><><>0<>0<>147753fef95e8ec1e6be1136dd4021ea<>res://.godot/imported/Italy.png-67be41a298420d76643a21e05002672c.ctex::
@@ -112,27 +114,30 @@ countries-nodes.txt::TextFile/TextFile::-1::1750083589::0::1::::<><><>0<>0<><>::
 ::res://Assets/Soundtracks/::1750689893
 Campanella.mp3::AudioStreamMP3::3685410062356241840::1750689558::1750689559::1::::<><><>0<>0<>2340f0bd613c3e141f5feb38bb2cea80<>res://.godot/imported/Campanella.mp3-060d26670b17e70ead06bf75a83069e9.mp3str::
 Select.mp3::AudioStreamMP3/AudioStreamMP3::2289738341525530203::1750083589::1750251750::1::::<><><>0<>0<>7774ab2b1c5e566934afff3b6fa68f88<>res://.godot/imported/Select.mp3-be05e93b40be0355c2affa518aac7d0f.mp3str::
-::res://Scenes/::1750689971
+::res://Scenes/::1750694258
 audio_control.gd::GDScript/GDScript::4940597074497891612::1750083589::0::1::::<>HSlider<><>0<>0<><>::
 audio_control_vfx.gd::GDScript/GDScript::4143422361732286457::1750083589::0::1::::<>HSlider<><>0<>0<><>::
 country.gd::GDScript/GDScript::1804680275187150878::1750468532::0::1::::<>Area2D<><>0<>0<><>::
 country.tscn::PackedScene/PackedScene::8018436074180929022::1750273892::0::1::::<><><>0<>0<><>::uid://0yg25ptiixko::::res://Scenes/country.gd
 fight_scene.gd::GDScript::2185920026556184215::1750689185::0::1::::<>Node2D<><>0<>0<><>::
-fight_scene.tscn::PackedScene::1617938517844684848::1750689185::0::1::::<><><>0<>0<><>::uid://6e41vxr15fat::::res://Scenes/fight_scene.gd<>uid://c3la5jevsxp2b::::res://Sprites/victory royale.jpg
+fight_scene.tscn::PackedScene::1617938517844684848::1750694258::0::1::::<><><>0<>0<><>::uid://6e41vxr15fat::::res://Scenes/fight_scene.gd<>uid://c25b2ekdyghwc::::res://Sprites/victory royale.png
 fullscreen_controler.gd::GDScript/GDScript::7098059369523854575::1750083589::0::1::::<>CheckButton<><>0<>0<><>::
 game_state.gd::GDScript::8065628416353980945::1750689185::0::1::::<>Node<><>0<>0<><>::
-main_menu.gd::GDScript::2921387773729393711::1750689185::0::1::::<>Node2D<><>0<>0<><>::
-main_menu.tscn::PackedScene::2145404949296852339::1750689971::0::1::::<><><>0<>0<><>::uid://cv50v0enxc5r4::::res://Scenes/map.tscn<>uid://bhve3hi8j3vrj::::res://Scenes/main_menu.gd<>uid://wbfrm5ow7s1w::::res://Scenes/Picking_Country.tscn
+main_menu.gd::GDScript::2921387773729393711::1750694006::0::1::::<>Node2D<><>0<>0<><>::
+main_menu.tscn::PackedScene::2145404949296852339::1750694258::0::1::::<><><>0<>0<><>::uid://cv50v0enxc5r4::::res://Scenes/map.tscn<>uid://bhve3hi8j3vrj::::res://Scenes/main_menu.gd<>uid://wbfrm5ow7s1w::::res://Scenes/Picking_Country.tscn
 map.gd::GDScript/GDScript::9024596975645190727::1750083589::0::1::::<>Node2D<><>0<>0<><>::
 map.tscn::PackedScene/PackedScene::6310295162782321271::1750429362::0::1::::<><><>0<>0<><>::uid://d1tt18q0q3xg6::::res://Scenes/map.gd<>uid://cibvewujevwnr::::res://Scripts/camera_2d.gd<>uid://dmigqab1uvd1w::::res://Scenes/country.tscn
-Picking_Country.tscn::PackedScene::1546553558542096754::1750689971::0::1::::<><><>0<>0<><>::uid://ccni6aiyxbdeq::::res://Scenes/audio_control.gd<>uid://c8emaa5r2nrwh::::res://Scenes/fullscreen_controler.gd<>uid://b0bdtcpbfx6en::::res://Scenes/audio_control_vfx.gd<>uid://bsrifvcidk8bk::::res://Assets/Soundtracks/Campanella.mp3<>uid://7vfwkjps423p::::res://Assets/Soundtracks/Select.mp3
-selection_screen.tscn::PackedScene::5602345601844824172::1750689185::0::1::::<><><>0<>0<><>::uid://cv50v0enxc5r4::::res://Scenes/map.tscn<>uid://bhve3hi8j3vrj::::res://Scenes/main_menu.gd<>uid://wbfrm5ow7s1w::::res://Scenes/Picking_Country.tscn<>uid://c3la5jevsxp2b::::res://Sprites/victory royale.jpg
+Picking_Country.tscn::PackedScene::1546553558542096754::1750694258::0::1::::<><><>0<>0<><>::uid://ccni6aiyxbdeq::::res://Scenes/audio_control.gd<>uid://c8emaa5r2nrwh::::res://Scenes/fullscreen_controler.gd<>uid://b0bdtcpbfx6en::::res://Scenes/audio_control_vfx.gd<>uid://bsrifvcidk8bk::::res://Assets/Soundtracks/Campanella.mp3<>uid://7vfwkjps423p::::res://Assets/Soundtracks/Select.mp3
+selection_screen.tscn::PackedScene::5602345601844824172::1750694258::0::1::::<><><>0<>0<><>::uid://cv50v0enxc5r4::::res://Scenes/map.tscn<>uid://bhve3hi8j3vrj::::res://Scenes/main_menu.gd<>uid://wbfrm5ow7s1w::::res://Scenes/Picking_Country.tscn<>uid://bsrifvcidk8bk::::res://Assets/Soundtracks/Campanella.mp3
 Victory_Screen.tscn::PackedScene/PackedScene::2745200231022668009::1750599520::0::1::::<><><>0<>0<><>::uid://c3la5jevsxp2b::::res://Sprites/victory royale.jpg
 ::res://Scripts/::1750468418
 camera_2d.gd::GDScript/GDScript::5337699881093143211::1750468418::0::1::::<>Camera2D<><>0<>0<><>::
-::res://Sprites/::1750690091
+::res://Sprites/::1750690102
 png-clipart-settings-gear-icon-gear-configuration-thumbnail.png::CompressedTexture2D/CompressedTexture2D::3572069448407623348::1750083589::1750251751::1::::<><><>0<>0<>3952b90a426e7a4ea3678219d04df92c<>res://.godot/imported/png-clipart-settings-gear-icon-gear-configuration-thumbnail.png-b72655e0899ae601d465330e3833e26c.ctex::
 pngtree-settings-icon-image_1197585.jpg::CompressedTexture2D/CompressedTexture2D::6763165452452609122::1750083589::1750251751::1::::<><><>0<>0<>40ba3d8b127d75eed5b3cbece53b00b7<>res://.godot/imported/pngtree-settings-icon-image_1197585.jpg-2bc3e90f0382345e18ea88f41e56b49d.ctex::
 settings-white-outline-icon-download-png-701751694974641xsiiydfokh.png::CompressedTexture2D/CompressedTexture2D::4646330710776944288::1750083589::1750251751::1::::<><><>0<>0<>3848c631a0eb9f62526fc676d239666a<>res://.godot/imported/settings-white-outline-icon-download-png-701751694974641xsiiydfokh.png-8d89a26f3f632570246aa2ba1ce797b7.ctex::
-victory royale.jpg::CompressedTexture2D/CompressedTexture2D::6760891198231402443::1750471881::1750472600::1::::<><><>0<>0<>3ead95d0f51dfc2eb36df1af3367f6ae<>res://.godot/imported/victory royale.jpg-84c2b500aa4165bea842613a2688c032.ctex::
 victory royale.png::CompressedTexture2D::6729980637373136154::1750690091::1750690092::1::::<><><>0<>0<>d28d4e4dc6629f82b917f13fa28cf6c0<>res://.godot/imported/victory royale.png-cad9bddab236a50c672cdd33c4cf9453.ctex::
+::res://Submission/::1750693255
+index.apple-touch-icon.png::CompressedTexture2D::8030525531874816055::1750693107::1750693255::1::::<><><>0<>0<>40c38b8eada4e0e78bab27b199030285<>res://.godot/imported/index.apple-touch-icon.png-c1aa0a3b02c9dbf7488e7de9aac5764b.ctex::
+index.icon.png::CompressedTexture2D::6406294713148433778::1750693107::1750693255::1::::<><><>0<>0<>01f1eef72be8619ea9272c6dc12a0e63<>res://.godot/imported/index.icon.png-4ae83b869d2f0b6ec51699bf27ab3fd4.ctex::
+index.png::CompressedTexture2D::6614257947837977355::1750693107::1750693255::1::::<><><>0<>0<>12e9f92cbe26690caa9f08c4624cb830<>res://.godot/imported/index.png-d09e0c8d1a3b013499a870f792bf219a.ctex::

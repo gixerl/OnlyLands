@@ -1,3 +1,5 @@
 res://Scenes/main_menu.tscn
 res://Scenes/Picking_Country.tscn
 res://Scenes/fight_scene.tscn
+res://Scenes/selection_screen.tscn
+res://Scenes/main_menu.gd

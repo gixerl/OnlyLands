@@ -391,7 +391,6 @@ bus = &"SFX"
 [node name="Soundtrack" type="AudioStreamPlayer2D" parent="."]
 visible = false
 stream = ExtResource("6_50x8q")
-autoplay = true
 bus = &"Music"
 
 [connection signal="pressed" from="Options/Fläche/Back" to="." method="_on_back_pressed"]

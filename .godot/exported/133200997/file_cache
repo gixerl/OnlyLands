@@ -1,0 +1,8 @@
+res://Scenes/country.tscn::af9bb67a11ee02ea89e5adedf370cfac::1750273892::res://.godot/exported/133200997/export-c47986a0c65f5df8a1151a3e6bf13180-country.scn
+res://Scenes/fight_scene.tscn::01420810bbcfc81e46442f372cdbef3e::1750691805::res://.godot/exported/133200997/export-0c1eb14527994853037f4e19d791c216-fight_scene.scn
+res://Scenes/main_menu.tscn::50139363c948ba82579d8830a7c7eda0::1750691805::res://.godot/exported/133200997/export-502e6a9b269597544b234abf28958cd8-main_menu.scn
+res://Scenes/map.tscn::6058664f435238e870c2bbbb1f15018d::1750429362::res://.godot/exported/133200997/export-522b15b96246958d270083e8689e20e5-map.scn
+res://Scenes/Picking_Country.tscn::bec27b6dd1bef8e6a2b4b72368f6b9ee::1750691805::res://.godot/exported/133200997/export-ef155ecd09379523c0a807ad81716bf4-Picking_Country.scn
+res://Scenes/selection_screen.tscn::8cd663641b2df92cd4d9cbbfc0bb1cbc::1750689185::res://.godot/exported/133200997/export-f36d64a8718e5000165ede37716ae0b5-selection_screen.scn
+res://Scenes/Victory_Screen.tscn::0162fcc327df168ca0829ad8d77be259::1750599520::res://.godot/exported/133200997/export-5b3369344a3e48627ebeff28cfbb7b1f-Victory_Screen.scn
+res://default_bus_layout.tres::f8c9f9e39e99d9890fbebc5bead25232::1750083589::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
